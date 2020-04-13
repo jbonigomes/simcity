@@ -1,31 +1,42 @@
 import { render } from 'react-dom'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 import data from './data'
 import logo from '../images/logo.png'
 
 const App = () => {
-  const [required, setRequired] = useState({})
+  const [required, setRequired] = useState([])
+  const [dependencies, setDependencies] = useState([])
 
-  const handleAdd = (key) => () => {
-    setRequired({
-      ...required,
-      [key]: {
-        ...data[key],
-        amount: required[key]?.amount ? required[key].amount + 1 : 1,
-      },
-    })
+  const handleAdd = (itemIn) => () => {
+    if (required.find(item => item.key === itemIn.key)) {
+      setRequired(required.map((item) => ({
+        ...item,
+        amount: itemIn.key === item.key ? item.amount + 1 : item.amount,
+      })))
+    } else {
+      setRequired([...required, { ...itemIn, amount: 1 }])
+    }
   }
 
-  const handleRemove = (key) => () => {
-    setRequired({
-      ...required,
-      [key]: {
-        ...required[key],
-        amount: required[key]?.amount >= 1 ? required[key].amount - 1 : 0,
-      },
-    })
+  const handleRemove = (itemIn) => () => {
+    if (required.find(item => item.key === itemIn.key)?.amount > 1) {
+      setRequired(required.map((item) => ({
+        ...item,
+        amount: itemIn.key === item.key ? item.amount - 1 : item.amount,
+      })))
+    } else {
+      setRequired(required.filter((item) => itemIn.key !== item.key))
+    }
   }
+
+  useEffect(() => {
+    setDependencies(
+      required
+        .flatMap(({ deps }) => deps)
+        .filter((val, idx, self) => self.indexOf(val) === idx)
+    )
+  }, [required])
 
   return (
     <>
@@ -33,86 +44,31 @@ const App = () => {
 
       <div className="container">
         <div className="left">
-          <h1>Raw materials</h1>
-          {Object.keys(data).filter((key) => data[key].type === 'raw').map((key) => (
-            <button onClick={handleAdd(key)} key={key}>
-              <img className="item" src={data[key].image} />
-            </button>
-          ))}
-
-          <h1>Building store</h1>
-          {Object.keys(data).filter((key) => data[key].type === 'building').map((key) => (
-            <button onClick={handleAdd(key)} key={key}>
-              <img className="item" src={data[key].image} />
-            </button>
-          ))}
-
-          <h1>Hardware store</h1>
-          {Object.keys(data).filter((key) => data[key].type === 'hardware').map((key) => (
-            <button onClick={handleAdd(key)} key={key}>
-              <img className="item" src={data[key].image} />
-            </button>
-          ))}
-
-          <h1>Farmers market</h1>
-          {Object.keys(data).filter((key) => data[key].type === 'farmers').map((key) => (
-            <button onClick={handleAdd(key)} key={key}>
-              <img className="item" src={data[key].image} />
-            </button>
-          ))}
-
-          <h1>Furniture store</h1>
-          {Object.keys(data).filter((key) => data[key].type === 'furniture').map((key) => (
-            <button onClick={handleAdd(key)} key={key}>
-              <img className="item" src={data[key].image} />
-            </button>
-          ))}
-
-          <h1>Gardening store</h1>
-          {Object.keys(data).filter((key) => data[key].type === 'gardening').map((key) => (
-            <button onClick={handleAdd(key)} key={key}>
-              <img className="item" src={data[key].image} />
-            </button>
-          ))}
-
-          <h1>Donut store</h1>
-          {Object.keys(data).filter((key) => data[key].type === 'donut').map((key) => (
-            <button onClick={handleAdd(key)} key={key}>
-              <img className="item" src={data[key].image} />
-            </button>
-          ))}
-
-          <h1>Fashion store</h1>
-          {Object.keys(data).filter((key) => data[key].type === 'fashion').map((key) => (
-            <button onClick={handleAdd(key)} key={key}>
-              <img className="item" src={data[key].image} />
-            </button>
-          ))}
-
-          <h1>Fast food store</h1>
-          {Object.keys(data).filter((key) => data[key].type === 'food').map((key) => (
-            <button onClick={handleAdd(key)} key={key}>
-              <img className="item" src={data[key].image} />
-            </button>
-          ))}
-
-          <h1>Home store</h1>
-          {Object.keys(data).filter((key) => data[key].type === 'home').map((key) => (
-            <button onClick={handleAdd(key)} key={key}>
-              <img className="item" src={data[key].image} />
+          <h1>All items</h1>
+          {data.map((item) => (
+            <button onClick={handleAdd(item)} key={item.key}>
+              <img className="item" src={item.image} />
             </button>
           ))}
         </div>
+
         <div className="right">
-          <h1>Required</h1>
-          {Object.keys(required).filter((key) => required[key].amount).map((key) => (
-            <div key={key} className="line">
-              <button onClick={handleRemove(key)}>
-                <img className="item" src={required[key].image} />
-              </button>
-              <span>x {required[key].amount}</span>
-            </div>
-          ))}
+          <h1>Required items</h1>
+          {required.length ? required.map((item) => (
+            <button onClick={handleRemove(item)} key={item.key}>
+              <img className="item" src={item.image} />
+              <span>x {item.amount}</span>
+            </button>
+          )) : (
+            <p>No required items</p>
+          )}
+
+          <h1>Dependencies</h1>
+          {dependencies.length ? dependencies.map((dep) => (
+            <img className="item dep" src={dep} key={dep} />
+          )) : (
+            <p>No dependencies</p>
+          )}
         </div>
       </div>
     </>

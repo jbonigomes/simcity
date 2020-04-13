@@ -65,530 +65,729 @@ import tv from '../images/tv.png'
 import vegetables from '../images/vegetables.png'
 import wood from '../images/wood.png'
 
-export default {
+export default [
   // RAW MATERIALS
-  metal: {
+  {
+    key: 'metal',
     image: metal,
     type: 'raw',
-    deps: {},
+    deps: [],
   },
-  wood: {
+  {
+    key: 'wood',
     image: wood,
     type: 'raw',
-    deps: {},
+    deps: [],
   },
-  plastic: {
+  {
+    key: 'plastic',
     image: plastic,
     type: 'raw',
-    deps: {},
+    deps: [],
   },
-  seeds: {
+  {
+    key: 'seeds',
     image: seeds,
     type: 'raw',
-    deps: {},
+    deps: [],
   },
-  minerals: {
+  {
+    key: 'minerals',
     image: minerals,
     type: 'raw',
-    deps: {},
+    deps: [],
   },
-  chemicals: {
+  {
+    key: 'chemicals',
     image: chemicals,
     type: 'raw',
-    deps: {},
+    deps: [],
   },
-  textiles: {
+  {
+    key: 'textiles',
     image: textiles,
     type: 'raw',
-    deps: {},
+    deps: [],
   },
-  sugarspices: {
+  {
+    key: 'sugarspices',
     image: sugarspices,
     type: 'raw',
-    deps: {},
+    deps: [],
   },
-  glass: {
+  {
+    key: 'glass',
     image: glass,
     type: 'raw',
-    deps: {},
+    deps: [],
   },
-  animalfeed: {
+  {
+    key: 'animalfeed',
     image: animalfeed,
     type: 'raw',
-    deps: {},
+    deps: [],
   },
-  electricalcomponents: {
+  {
+    key: 'electricalcomponents',
     image: electricalcomponents,
     type: 'raw',
-    deps: {},
+    deps: [],
   },
 
   // BUILDING STORE
-  nails: {
+  {
+    key: 'nails',
     image: nails,
     type: 'building',
-    deps: {
-      metal: 2,
-    },
+    deps: [
+      metal,
+    ],
   },
-  planks: {
+  {
+    key: 'planks',
     image: planks,
     type: 'building',
-    deps: {
-      wood: 2,
-    },
+    deps: [
+      wood,
+    ],
   },
-  bricks: {
+  {
+    key: 'bricks',
     image: bricks,
     type: 'building',
-    deps: {
-      minerals: 2,
-    },
+    deps: [
+      minerals,
+    ],
   },
-  cement: {
+  {
+    key: 'cement',
     image: cement,
     type: 'building',
-    deps: {
-      minerals: 2,
-      chemicals: 1,
-    },
+    deps: [
+      minerals,
+      chemicals,
+    ],
   },
-  glue: {
+  {
+    key: 'glue',
     image: glue,
     type: 'building',
-    deps: {
-      plastic: 1,
-      chemicals: 2,
-    },
+    deps: [
+      plastic,
+      chemicals,
+    ],
   },
-  paintbucket: {
+  {
+    key: 'paintbucket',
     image: paintbucket,
     type: 'building',
-    deps: {
-      metal: 2,
-      minerals: 1,
-      chemicals: 2,
-    },
+    deps: [
+      metal,
+      minerals,
+      chemicals,
+    ],
   },
 
   // HARDWARE STORE
-  hammer: {
+  {
+    key: 'hammer',
     image: hammer,
     type: 'hardware',
-    deps: {
-      metal: 1,
-      wood: 1,
-    },
+    deps: [
+      metal,
+      wood,
+    ],
   },
-  measuringtape: {
+  {
+    key: 'measuringtape',
     image: measuringtape,
     type: 'hardware',
-    deps: {
-      metal: 1,
-      plastic: 1,
-    },
+    deps: [
+      metal,
+      plastic,
+    ],
   },
-  shovel: {
+  {
+    key: 'shovel',
     image: shovel,
     type: 'hardware',
-    deps: {
-      metal: 1,
-      wood: 1,
-      plastic: 1,
-    },
+    deps: [
+      metal,
+      wood,
+      plastic,
+    ],
   },
-  cookingutensils: {
+  {
+    key: 'cookingutensils',
     image: cookingutensils,
     type: 'hardware',
-    deps: {
-      metal: 2,
-      wood: 2,
-      plastic: 2,
-    },
+    deps: [
+      metal,
+      wood,
+      plastic,
+    ],
   },
-  ladder: {
+  {
+    key: 'ladder',
     image: ladder,
     type: 'hardware',
-    deps: {
-      metal: 2,
-      planks: 2,
-    },
+    deps: [
+      metal,
+      planks,
+      // Deep deps
+      wood,
+    ],
   },
-  drill: {
+  {
+    key: 'drill',
     image: drill,
     type: 'hardware',
-    deps: {
-      metal: 2,
-      plastic: 2,
-      electricalcomponents: 1,
-    },
+    deps: [
+      metal,
+      plastic,
+      electricalcomponents,
+    ],
   },
 
   // FARMERS MARKET
-  vegetables: {
+  {
+    key: 'vegetables',
     image: vegetables,
     type: 'farmers',
-    deps: {
-      seeds: 2,
-    },
+    deps: [
+      seeds,
+    ],
   },
-  flourbags: {
+  {
+    key: 'flourbags',
     image: flourbags,
     type: 'farmers',
-    deps: {
-      seeds: 2,
-      textiles: 2,
-    },
+    deps: [
+      seeds,
+      textiles,
+    ],
   },
-  fruitberries: {
+  {
+    key: 'fruitberries',
     image: fruitberries,
     type: 'farmers',
-    deps: {
-      seeds: 2,
-      treesaplings: 1,
-    },
+    deps: [
+      seeds,
+      treesaplings,
+      // Deep deps
+      shovel,
+      metal,
+      wood,
+      plastic,
+    ],
   },
-  cream: {
+  {
+    key: 'cream',
     image: cream,
     type: 'farmers',
-    deps: {
-      animalfeed: 1,
-    },
+    deps: [
+      animalfeed,
+    ],
   },
-  corn: {
+  {
+    key: 'corn',
     image: corn,
     type: 'farmers',
-    deps: {
-      seeds: 4,
-      minerals: 1,
-    },
+    deps: [
+      seeds,
+      minerals,
+    ],
   },
-  cheese: {
+  {
+    key: 'cheese',
     image: cheese,
     type: 'farmers',
-    deps: {
-      animalfeed: 2,
-    },
+    deps: [
+      animalfeed,
+    ],
   },
-  beef: {
+  {
+    key: 'beef',
     image: beef,
     type: 'farmers',
-    deps: {
-      animalfeed: 3,
-    },
+    deps: [
+      animalfeed,
+    ],
   },
 
   // FURNITURE STORE
-  charis: {
+  {
+    key: 'charis',
     image: chairs,
     type: 'furniture',
-    deps: {
-      wood: 2,
-      nails: 1,
-      hammer: 1,
-    },
+    deps: [
+      wood,
+      nails,
+      hammer,
+      // Deep deps
+      metal,
+      wood,
+    ],
   },
-  tables: {
+  {
+    key: 'tables',
     image: tables,
     type: 'furniture',
-    deps: {
-      planks: 1,
-      nails: 2,
-      hammer: 1,
-    },
+    deps: [
+      planks,
+      nails,
+      hammer,
+      // Deep deps
+      wood,
+      metal,
+    ],
   },
-  hometextiles: {
+  {
+    key: 'hometextiles',
     image: hometextiles,
     type: 'furniture',
-    deps: {
-      textiles: 2,
-      measuringtape: 1,
-    },
+    deps: [
+      textiles,
+      measuringtape,
+      // Deep deps
+      metal,
+      plastic,
+    ],
   },
-  cupboard: {
+  {
+    key: 'cupboard',
     image: cupboard,
     type: 'furniture',
-    deps: {
-      planks: 2,
-      glass: 2,
-      paintbucket: 1,
-    },
+    deps: [
+      planks,
+      glass,
+      paintbucket,
+      // Deep deps
+      wood,
+      metal,
+      minerals,
+      chemicals,
+    ],
   },
-  couch: {
+  {
+    key: 'couch',
     image: couch,
     type: 'furniture',
-    deps: {
-      textiles: 3,
-      drill: 1,
-      glue: 1,
-    },
+    deps: [
+      textiles,
+      drill,
+      glue,
+      // Deep deps
+      metal,
+      plastic,
+      chemicals,
+      electricalcomponents,
+    ],
   },
 
   // GARDENING STORE
-  grass: {
+  {
+    key: 'grass',
     image: grass,
     type: 'gardening',
-    deps: {
-      seeds: 1,
-      shovel: 1,
-    },
+    deps: [
+      seeds,
+      shovel,
+      // Deep deps
+      wood,
+      metal,
+      plastic,
+    ],
   },
-  treesaplings: {
+  {
+    key: 'treesaplings',
     image: treesaplings,
     type: 'gardening',
-    deps: {
-      seeds: 2,
-      shovel: 1,
-    },
+    deps: [
+      seeds,
+      shovel,
+      // Deep deps
+      wood,
+      metal,
+      plastic,
+    ],
   },
-  gardenfurniture: {
+  {
+    key: 'gardenfurniture',
     image: gardenfurniture,
     type: 'gardening',
-    deps: {
-      planks: 2,
-      plastic: 2,
-      textiles: 2,
-    },
+    deps: [
+      planks,
+      plastic,
+      textiles,
+      // Deep deps
+      wood,
+    ],
   },
-  firepit: {
+  {
+    key: 'firepit',
     image: firepit,
     type: 'gardening',
-    deps: {
-      bricks: 2,
-      shovel: 1,
-      cement: 2,
-    },
+    deps: [
+      bricks,
+      shovel,
+      cement,
+      // Deep deps
+      minerals,
+      wood,
+      metal,
+      plastic,
+      chemicals,
+    ],
   },
-  lawnmower: {
+  {
+    key: 'lawnmower',
     image: lawnmower,
     type: 'gardening',
-    deps: {
-      metal: 3,
-      electricalcomponents: 1,
-      paintbucket: 1,
-    },
+    deps: [
+      metal,
+      electricalcomponents,
+      paintbucket,
+      // Deep deps
+      minerals,
+      chemicals,
+    ],
   },
-  gardengnomes: {
+  {
+    key: 'gardengnomes',
     image: gardengnomes,
     type: 'gardening',
-    deps: {
-      cement: 2,
-      glue: 1,
-    },
+    deps: [
+      cement,
+      glue,
+      // Deep deps
+      minerals,
+      chemicals,
+      plastic,
+    ],
   },
 
   // DONUT STORE
-  donuts: {
+  {
+    key: 'donuts',
     image: donuts,
     type: 'donut',
-    deps: {
-      flourbags: 1,
-      sugarspices: 1,
-    },
+    deps: [
+      flourbags,
+      sugarspices,
+      // Deep deps
+      seeds,
+      textiles,
+    ],
   },
-  greensmoothie: {
+  {
+    key: 'greensmoothie',
     image: greensmoothie,
     type: 'donut',
-    deps: {
-      vegetables: 1,
-      fruitberries: 1,
-    },
+    deps: [
+      vegetables,
+      fruitberries,
+      // Deep deps
+      seeds,
+      treesaplings,
+      shovel,
+      metal,
+      wood,
+      plastic,
+    ],
   },
-  breadroll: {
+  {
+    key: 'breadroll',
     image: breadroll,
     type: 'donut',
-    deps: {
-      flourbags: 2,
-      cream: 1,
-    },
+    deps: [
+      flourbags,
+      cream,
+      // Deep deps
+      seeds,
+      textiles,
+      animalfeed,
+    ],
   },
-  cherrycheesecake: {
+  {
+    key: 'cherrycheesecake',
     image: cherrycheesecake,
     type: 'donut',
-    deps: {
-      flourbags: 1,
-      fruitberries: 1,
-      cheese: 1,
-    },
+    deps: [
+      flourbags,
+      fruitberries,
+      cheese,
+      // Deep deps
+      seeds,
+      textiles,
+      treesaplings,
+      shovel,
+      metal,
+      wood,
+      plastic,
+      animalfeed,
+    ],
   },
-  frozenyogurt: {
+  {
+    key: 'frozenyogurt',
     image: frozenyogurt,
     type: 'donut',
-    deps: {
-      fruitberries: 1,
-      cream: 1,
-      sugarspices: 1,
-    },
+    deps: [
+      fruitberries,
+      cream,
+      sugarspices,
+      // Deep deps
+      seeds,
+      treesaplings,
+      shovel,
+      metal,
+      wood,
+      plastic,
+      animalfeed,
+    ],
   },
-  coffee: {
+  {
+    key: 'coffee',
     image: coffee,
     type: 'donut',
-    deps: {
-      seeds: 2,
-      sugarspices: 1,
-      cream: 1,
-    },
+    deps: [
+      seeds,
+      sugarspices,
+      cream,
+      // Deep deps
+      animalfeed,
+    ],
   },
 
   // FASHION STORE
-  cap: {
+  {
+    key: 'cap',
     image: cap,
     type: 'fashion',
-    deps: {
-      textiles: 2,
-      measuringtape: 1,
-    },
+    deps: [
+      textiles,
+      measuringtape,
+      // Deep deps
+      metal,
+      plastic,
+    ],
   },
-  shoes: {
+  {
+    key: 'shoes',
     image: shoes,
     type: 'fashion',
-    deps: {
-      textiles: 2,
-      plastic: 1,
-      glue: 1,
-    },
+    deps: [
+      textiles,
+      plastic,
+      glue,
+      // Deep deps
+      plastic,
+      chemicals,
+    ],
   },
-  sunglasses: {
+  {
+    key: 'sunglasses',
     image: sunglasses,
     type: 'fashion',
-    deps: {
-      plastic: 2,
-      glass: 1,
-      chemicals: 1,
-    },
+    deps: [
+      plastic,
+      glass,
+      chemicals,
+    ],
   },
-  businesssuits: {
+  {
+    key: 'businesssuits',
     image: businesssuits,
     type: 'fashion',
-    deps: {
-      textiles: 3,
-      measuringtape: 1,
-      glue: 1,
-    },
+    deps: [
+      textiles,
+      measuringtape,
+      glue,
+      // Deep deps
+      metal,
+      plastic,
+      chemicals,
+    ],
   },
-  backpack: {
+  {
+    key: 'backpack',
     image: backpack,
     type: 'fashion',
-    deps: {
-      plastic: 2,
-      textiles: 2,
-      measuringtape: 1,
-    },
+    deps: [
+      plastic,
+      textiles,
+      measuringtape,
+      // Deep deps
+      metal,
+      plastic,
+    ],
   },
 
   // FAST FOOD STORE
-  icecreamsandwich: {
+  {
+    key: 'icecreamsandwich',
     image: icecreamsandwich,
     type: 'food',
-    deps: {
-      breadroll: 1,
-      cream: 1,
-    },
+    deps: [
+      breadroll,
+      cream,
+      // Deep deps
+      seeds,
+      textiles,
+      animalfeed,
+    ],
   },
-  pizza: {
+  {
+    key: 'pizza',
     image: pizza,
     type: 'food',
-    deps: {
-      flourbags: 1,
-      cheese: 1,
-      beef: 1,
-    },
+    deps: [
+      flourbags,
+      cheese,
+      beef,
+      // Deep deps
+      seeds,
+      textiles,
+      animalfeed,
+    ],
   },
-  burgers: {
+  {
+    key: 'burgers',
     image: burgers,
     type: 'food',
-    deps: {
-      beef: 1,
-      breadroll: 1,
-      bbqgrill: 1,
-    },
+    deps: [
+      beef,
+      breadroll,
+      bbqgrill,
+      // Deep deps
+      animalfeed,
+      flourbags,
+      cream,
+      seeds,
+      textiles,
+      metal,
+      cookingutensils,
+      wood,
+      plastic,
+    ],
   },
-  cheesefries: {
+  {
+    key: 'cheesefries',
     image: cheesefries,
     type: 'food',
-    deps: {
-      vegetables: 1,
-      cheese: 1,
-    },
+    deps: [
+      vegetables,
+      cheese,
+      // Deep deps
+      seeds,
+      animalfeed,
+    ],
   },
-  lemonadebottles: {
+  {
+    key: 'lemonadebottles',
     image: lemonadebottles,
     type: 'food',
-    deps: {
-      sugarspices: 2,
-      glass: 2,
-      fruitberries: 1,
-    },
+    deps: [
+      sugarspices,
+      glass,
+      fruitberries,
+      // Deep deps
+      seeds,
+      treesaplings,
+      shovel,
+      metal,
+      wood,
+      plastic,
+    ],
   },
-  popcorn: {
+  {
+    key: 'popcorn',
     image: popcorn,
     type: 'food',
-    deps: {
-      corn: 2,
-      microwaveoven: 1,
-    },
+    deps: [
+      corn,
+      microwaveoven,
+      // Deep deps
+      seeds,
+      minerals,
+      metal,
+      glass,
+      electricalcomponents,
+    ],
   },
 
   // HOME STORE
-  bbqgrill: {
+  {
+    key: 'bbqgrill',
     image: bbqgrill,
     type: 'home',
-    deps: {
-      metal: 3,
-      cookingutensils: 1,
-    },
+    deps: [
+      metal,
+      cookingutensils,
+      // Deep deps
+      metal,
+      wood,
+      plastic,
+    ],
   },
-  refrigerator: {
+  {
+    key: 'refrigerator',
     image: refrigerator,
     type: 'home',
-    deps: {
-      plastic: 2,
-      chemicals: 2,
-      electricalcomponents: 2,
-    },
+    deps: [
+      plastic,
+      chemicals,
+      electricalcomponents,
+    ],
   },
-  lightingsystem: {
+  {
+    key: 'lightingsystem',
     image: lightingsystem,
     type: 'home',
-    deps: {
-      chemicals: 1,
-      glass: 1,
-      electricalcomponents: 1,
-    },
+    deps: [
+      chemicals,
+      glass,
+      electricalcomponents,
+    ],
   },
-  tv: {
+  {
+    key: 'tv',
     image: tv,
     type: 'home',
-    deps: {
-      plastic: 2,
-      glass: 2,
-      electricalcomponents: 2,
-    },
+    deps: [
+      plastic,
+      glass,
+      electricalcomponents,
+    ],
   },
-  microwaveoven: {
+  {
+    key: 'microwaveoven',
     image: microwaveoven,
     type: 'home',
-    deps: {
-      metal: 4,
-      glass: 1,
-      electricalcomponents: 1,
-    },
+    deps: [
+      metal,
+      glass,
+      electricalcomponents,
+    ],
   },
 
   // PARIS
-  baguette: {
+  {
+    key: 'baguette',
     image: baguette,
     type: 'paris',
-    deps: {},
+    deps: [],
   },
-  parisshirt: {
+  {
+    key: 'parisshirt',
     image: parisshirt,
     type: 'paris',
-    deps: {},
+    deps: [],
   },
-  parisbag: {
+  {
+    key: 'parisbag',
     image: parisbag,
     type: 'paris',
-    deps: {},
+    deps: [],
   },
-}
+]
