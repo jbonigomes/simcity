@@ -1,3 +1,4 @@
+rm -Rf ./dist
 npm run build
 git checkout gh-pages
 git add dist -f

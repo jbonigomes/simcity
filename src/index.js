@@ -18,6 +18,7 @@ const App = () => {
 
     setRequired(required.filter((item) => {
       if (!found && item.image === itemIn.image) {
+        console.log('debugging')
         found = true
         return false
       }
