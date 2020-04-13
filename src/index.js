@@ -6,37 +6,43 @@ import logo from '../images/logo.png'
 
 const App = () => {
   const [required, setRequired] = useState([])
-  const [dependencies, setDependencies] = useState([])
+  const [displayDeps, setDisplayDeps] = useState([])
+  const [displayRequired, setDisplayRequired] = useState([])
 
   const handleAdd = (itemIn) => () => {
-    if (required.find(item => item.key === itemIn.key)) {
-      setRequired(required.map((item) => ({
-        ...item,
-        amount: itemIn.key === item.key ? item.amount + 1 : item.amount,
-      })))
-    } else {
-      setRequired([...required, { ...itemIn, amount: 1 }])
-    }
+    setRequired([ ...required, itemIn ])
   }
 
   const handleRemove = (itemIn) => () => {
-    if (required.find(item => item.key === itemIn.key)?.amount > 1) {
-      setRequired(required.map((item) => ({
-        ...item,
-        amount: itemIn.key === item.key ? item.amount - 1 : item.amount,
-      })))
-    } else {
-      setRequired(required.filter((item) => itemIn.key !== item.key))
-    }
+    let found = false
+
+    setRequired(required.filter((item) => {
+      if (!found && item.image === itemIn.image) {
+        found = true
+        return false
+      }
+
+      return true
+    }))
   }
 
   useEffect(() => {
-    setDependencies(
-      required
-        .flatMap(({ deps }) => deps)
-        .filter((val, idx, self) => self.indexOf(val) === idx)
-    )
-  }, [required])
+    setDisplayRequired(Object.values(required.reduce((acc, { image }) => ({
+      ...acc,
+      [image]: {
+        image: image,
+        amount: acc[image]?.amount ? acc[image].amount + 1 : 1,
+      },
+    }), {})))
+
+    setDisplayDeps(Object.values(required.flatMap(({ deps }) => deps).reduce((acc, image) => ({
+      ...acc,
+      [image]: {
+        image,
+        amount: acc[image]?.amount ? acc[image].amount + 1 : 1,
+      },
+    }), {})))
+  }, [required, setDisplayRequired, setDisplayDeps])
 
   return (
     <>
@@ -46,7 +52,7 @@ const App = () => {
         <div className="left">
           <h1>All items</h1>
           {data.map((item) => (
-            <button onClick={handleAdd(item)} key={item.key}>
+            <button onClick={handleAdd(item)} key={item.image}>
               <img className="item" src={item.image} />
             </button>
           ))}
@@ -54,8 +60,8 @@ const App = () => {
 
         <div className="right">
           <h1>Required items</h1>
-          {required.length ? required.map((item) => (
-            <button onClick={handleRemove(item)} key={item.key}>
+          {displayRequired.length ? displayRequired.map((item) => (
+            <button onClick={handleRemove(item)} key={item.image}>
               <img className="item" src={item.image} />
               <span>x {item.amount}</span>
             </button>
@@ -64,8 +70,11 @@ const App = () => {
           )}
 
           <h1>Dependencies</h1>
-          {dependencies.length ? dependencies.map((dep) => (
-            <img className="item dep" src={dep} key={dep} />
+          {displayDeps.length ? displayDeps.map((item) => (
+            <button key={item.image} disabled>
+              <img className="item" src={item.image} />
+              <span>x {item.amount}</span>
+            </button>
           )) : (
             <p>No dependencies</p>
           )}
