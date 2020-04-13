@@ -13,142 +13,142 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"react":"n8MK","object-assign":"J4Nk","scheduler":"MDSO"}],"NKHc":[function(require,module,exports) {
 "use strict";function _(){if("undefined"!=typeof __REACT_DEVTOOLS_GLOBAL_HOOK__&&"function"==typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE){0;try{__REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE(_)}catch(O){console.error(O)}}}_(),module.exports=require("./cjs/react-dom.production.min.js");
 },{"./cjs/react-dom.production.min.js":"i17t"}],"yPVv":[function(require,module,exports) {
-module.exports="/animalfeed.09898210.png";
+module.exports="/simcity/animalfeed.09898210.png";
 },{}],"aQTE":[function(require,module,exports) {
-module.exports="/backpack.03fb2bef.png";
+module.exports="/simcity/backpack.03fb2bef.png";
 },{}],"xB6U":[function(require,module,exports) {
-module.exports="/baguette.7d2ca84e.png";
+module.exports="/simcity/baguette.7d2ca84e.png";
 },{}],"BaI8":[function(require,module,exports) {
-module.exports="/bbqgrill.935994b3.png";
+module.exports="/simcity/bbqgrill.935994b3.png";
 },{}],"kNFv":[function(require,module,exports) {
-module.exports="/beef.69e40192.png";
+module.exports="/simcity/beef.69e40192.png";
 },{}],"Ekvc":[function(require,module,exports) {
-module.exports="/breadroll.ff5b862b.png";
+module.exports="/simcity/breadroll.ff5b862b.png";
 },{}],"xsZb":[function(require,module,exports) {
-module.exports="/bricks.0572e1b4.png";
+module.exports="/simcity/bricks.0572e1b4.png";
 },{}],"VRtD":[function(require,module,exports) {
-module.exports="/burgers.6c266da5.png";
+module.exports="/simcity/burgers.6c266da5.png";
 },{}],"zwfR":[function(require,module,exports) {
-module.exports="/businesssuits.8f8309b3.png";
+module.exports="/simcity/businesssuits.8f8309b3.png";
 },{}],"Iseg":[function(require,module,exports) {
-module.exports="/cap.1c7a9253.png";
+module.exports="/simcity/cap.1c7a9253.png";
 },{}],"VsSp":[function(require,module,exports) {
-module.exports="/cement.d1c1309c.png";
+module.exports="/simcity/cement.d1c1309c.png";
 },{}],"nbkU":[function(require,module,exports) {
-module.exports="/chairs.924ac682.png";
+module.exports="/simcity/chairs.924ac682.png";
 },{}],"ITCl":[function(require,module,exports) {
-module.exports="/cheese.b9c8b122.png";
+module.exports="/simcity/cheese.b9c8b122.png";
 },{}],"EdJh":[function(require,module,exports) {
-module.exports="/cheesefries.791672be.png";
+module.exports="/simcity/cheesefries.791672be.png";
 },{}],"nLzu":[function(require,module,exports) {
-module.exports="/chemicals.cae2c3cc.png";
+module.exports="/simcity/chemicals.cae2c3cc.png";
 },{}],"z1yi":[function(require,module,exports) {
-module.exports="/cherrycheesecake.5653c9b5.png";
+module.exports="/simcity/cherrycheesecake.5653c9b5.png";
 },{}],"nW5N":[function(require,module,exports) {
-module.exports="/coffee.c9de4101.png";
+module.exports="/simcity/coffee.c9de4101.png";
 },{}],"Km8e":[function(require,module,exports) {
-module.exports="/cookingutensils.da772fe0.png";
+module.exports="/simcity/cookingutensils.da772fe0.png";
 },{}],"Ft8M":[function(require,module,exports) {
-module.exports="/corn.04e545ab.png";
+module.exports="/simcity/corn.04e545ab.png";
 },{}],"aztE":[function(require,module,exports) {
-module.exports="/couch.1d1f2568.png";
+module.exports="/simcity/couch.1d1f2568.png";
 },{}],"tTsy":[function(require,module,exports) {
-module.exports="/cream.3130b539.png";
+module.exports="/simcity/cream.3130b539.png";
 },{}],"k1NU":[function(require,module,exports) {
-module.exports="/cupboard.bd167eb0.png";
+module.exports="/simcity/cupboard.bd167eb0.png";
 },{}],"aCj8":[function(require,module,exports) {
-module.exports="/donuts.805bb898.png";
+module.exports="/simcity/donuts.805bb898.png";
 },{}],"wTpS":[function(require,module,exports) {
-module.exports="/drill.b5281dcb.png";
+module.exports="/simcity/drill.b5281dcb.png";
 },{}],"EoTG":[function(require,module,exports) {
-module.exports="/electricalcomponents.202ad0e5.png";
+module.exports="/simcity/electricalcomponents.202ad0e5.png";
 },{}],"ALpA":[function(require,module,exports) {
-module.exports="/firepit.de2264d0.png";
+module.exports="/simcity/firepit.de2264d0.png";
 },{}],"YDXi":[function(require,module,exports) {
-module.exports="/flourbags.8c49e894.png";
+module.exports="/simcity/flourbags.8c49e894.png";
 },{}],"EyZZ":[function(require,module,exports) {
-module.exports="/frozenyogurt.a1e4068f.png";
+module.exports="/simcity/frozenyogurt.a1e4068f.png";
 },{}],"hwoL":[function(require,module,exports) {
-module.exports="/fruitberries.33e0a6a7.png";
+module.exports="/simcity/fruitberries.33e0a6a7.png";
 },{}],"a1dC":[function(require,module,exports) {
-module.exports="/gardenfurniture.52296997.png";
+module.exports="/simcity/gardenfurniture.52296997.png";
 },{}],"Twau":[function(require,module,exports) {
-module.exports="/gardengnomes.8c0784d1.png";
+module.exports="/simcity/gardengnomes.8c0784d1.png";
 },{}],"Ey2G":[function(require,module,exports) {
-module.exports="/glass.7f2ae8eb.png";
+module.exports="/simcity/glass.7f2ae8eb.png";
 },{}],"d8WF":[function(require,module,exports) {
-module.exports="/glue.1ea7c2df.png";
+module.exports="/simcity/glue.1ea7c2df.png";
 },{}],"dM2k":[function(require,module,exports) {
-module.exports="/grass.5d1403a4.png";
+module.exports="/simcity/grass.5d1403a4.png";
 },{}],"Ojzu":[function(require,module,exports) {
-module.exports="/greensmoothie.d5ce6c87.png";
+module.exports="/simcity/greensmoothie.d5ce6c87.png";
 },{}],"zRDQ":[function(require,module,exports) {
-module.exports="/hammer.0fdeaea2.png";
+module.exports="/simcity/hammer.0fdeaea2.png";
 },{}],"nL7s":[function(require,module,exports) {
-module.exports="/hometextiles.53764a82.png";
+module.exports="/simcity/hometextiles.53764a82.png";
 },{}],"AAWn":[function(require,module,exports) {
-module.exports="/icecreamsandwich.c49fb69e.png";
+module.exports="/simcity/icecreamsandwich.c49fb69e.png";
 },{}],"zcEA":[function(require,module,exports) {
-module.exports="/ladder.6ab40645.png";
+module.exports="/simcity/ladder.6ab40645.png";
 },{}],"qMPS":[function(require,module,exports) {
-module.exports="/lawnmower.b23af5e3.png";
+module.exports="/simcity/lawnmower.b23af5e3.png";
 },{}],"wupo":[function(require,module,exports) {
-module.exports="/lemonadebottles.8145bdea.png";
+module.exports="/simcity/lemonadebottles.8145bdea.png";
 },{}],"LIf8":[function(require,module,exports) {
-module.exports="/lightingsystem.efb1c153.png";
+module.exports="/simcity/lightingsystem.efb1c153.png";
 },{}],"t6Vg":[function(require,module,exports) {
-module.exports="/measuringtape.5afbe407.png";
+module.exports="/simcity/measuringtape.5afbe407.png";
 },{}],"Y1G5":[function(require,module,exports) {
-module.exports="/metal.0434f0ef.png";
+module.exports="/simcity/metal.0434f0ef.png";
 },{}],"hQXo":[function(require,module,exports) {
-module.exports="/microwaveoven.c99352f0.png";
+module.exports="/simcity/microwaveoven.c99352f0.png";
 },{}],"JOlY":[function(require,module,exports) {
-module.exports="/minerals.4eda59ed.png";
+module.exports="/simcity/minerals.4eda59ed.png";
 },{}],"wG8i":[function(require,module,exports) {
-module.exports="/nails.0887ccdb.png";
+module.exports="/simcity/nails.0887ccdb.png";
 },{}],"G3UP":[function(require,module,exports) {
-module.exports="/paintbucket.4450cb42.png";
+module.exports="/simcity/paintbucket.4450cb42.png";
 },{}],"qWbM":[function(require,module,exports) {
-module.exports="/parisbag.5251d5f8.png";
+module.exports="/simcity/parisbag.5251d5f8.png";
 },{}],"Y64t":[function(require,module,exports) {
-module.exports="/parisshirt.63cd772e.png";
+module.exports="/simcity/parisshirt.63cd772e.png";
 },{}],"IsLk":[function(require,module,exports) {
-module.exports="/pizza.698cfea5.png";
+module.exports="/simcity/pizza.698cfea5.png";
 },{}],"waks":[function(require,module,exports) {
-module.exports="/planks.05baa8da.png";
+module.exports="/simcity/planks.05baa8da.png";
 },{}],"ewlq":[function(require,module,exports) {
-module.exports="/plastic.e2cbd709.png";
+module.exports="/simcity/plastic.e2cbd709.png";
 },{}],"cBX7":[function(require,module,exports) {
-module.exports="/popcorn.10df4a15.png";
+module.exports="/simcity/popcorn.10df4a15.png";
 },{}],"TaAX":[function(require,module,exports) {
-module.exports="/refrigerator.deea2e2d.png";
+module.exports="/simcity/refrigerator.deea2e2d.png";
 },{}],"f4de":[function(require,module,exports) {
-module.exports="/seeds.56ae4989.png";
+module.exports="/simcity/seeds.56ae4989.png";
 },{}],"SJyQ":[function(require,module,exports) {
-module.exports="/shoes.1b77795e.png";
+module.exports="/simcity/shoes.1b77795e.png";
 },{}],"BR0g":[function(require,module,exports) {
-module.exports="/shovel.1579ea3f.png";
+module.exports="/simcity/shovel.1579ea3f.png";
 },{}],"hIib":[function(require,module,exports) {
-module.exports="/sugarspices.baedf824.png";
+module.exports="/simcity/sugarspices.baedf824.png";
 },{}],"GB2y":[function(require,module,exports) {
-module.exports="/sunglasses.cd72ef44.png";
+module.exports="/simcity/sunglasses.cd72ef44.png";
 },{}],"fbxl":[function(require,module,exports) {
-module.exports="/tables.ea45e670.png";
+module.exports="/simcity/tables.ea45e670.png";
 },{}],"FIAV":[function(require,module,exports) {
-module.exports="/textiles.dce535a3.png";
+module.exports="/simcity/textiles.dce535a3.png";
 },{}],"wyHh":[function(require,module,exports) {
-module.exports="/treesaplings.5e6e3681.png";
+module.exports="/simcity/treesaplings.5e6e3681.png";
 },{}],"g5MP":[function(require,module,exports) {
-module.exports="/tv.1dae5527.png";
+module.exports="/simcity/tv.1dae5527.png";
 },{}],"pOe0":[function(require,module,exports) {
-module.exports="/vegetables.42a95eee.png";
+module.exports="/simcity/vegetables.42a95eee.png";
 },{}],"nG7i":[function(require,module,exports) {
-module.exports="/wood.ce1b1965.png";
+module.exports="/simcity/wood.ce1b1965.png";
 },{}],"paDP":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=me(require("./images/animalfeed.png")),a=me(require("./images/backpack.png")),u=me(require("./images/baguette.png")),d=me(require("./images/bbqgrill.png")),t=me(require("./images/beef.png")),l=me(require("./images/breadroll.png")),f=me(require("./images/bricks.png")),i=me(require("./images/burgers.png")),g=me(require("./images/businesssuits.png")),s=me(require("./images/cap.png")),r=me(require("./images/cement.png")),p=me(require("./images/chairs.png")),m=me(require("./images/cheese.png")),n=me(require("./images/cheesefries.png")),q=me(require("./images/chemicals.png")),o=me(require("./images/cherrycheesecake.png")),c=me(require("./images/coffee.png")),b=me(require("./images/cookingutensils.png")),h=me(require("./images/corn.png")),v=me(require("./images/couch.png")),k=me(require("./images/cream.png")),w=me(require("./images/cupboard.png")),x=me(require("./images/donuts.png")),y=me(require("./images/drill.png")),_=me(require("./images/electricalcomponents.png")),z=me(require("./images/firepit.png")),M=me(require("./images/flourbags.png")),j=me(require("./images/frozenyogurt.png")),O=me(require("./images/fruitberries.png")),P=me(require("./images/gardenfurniture.png")),A=me(require("./images/gardengnomes.png")),B=me(require("./images/glass.png")),C=me(require("./images/glue.png")),D=me(require("./images/grass.png")),E=me(require("./images/greensmoothie.png")),F=me(require("./images/hammer.png")),G=me(require("./images/hometextiles.png")),H=me(require("./images/icecreamsandwich.png")),I=me(require("./images/ladder.png")),J=me(require("./images/lawnmower.png")),K=me(require("./images/lemonadebottles.png")),L=me(require("./images/lightingsystem.png")),N=me(require("./images/measuringtape.png")),Q=me(require("./images/metal.png")),R=me(require("./images/microwaveoven.png")),S=me(require("./images/minerals.png")),T=me(require("./images/nails.png")),U=me(require("./images/paintbucket.png")),V=me(require("./images/parisbag.png")),W=me(require("./images/parisshirt.png")),X=me(require("./images/pizza.png")),Y=me(require("./images/planks.png")),Z=me(require("./images/plastic.png")),$=me(require("./images/popcorn.png")),ee=me(require("./images/refrigerator.png")),ae=me(require("./images/seeds.png")),ue=me(require("./images/shoes.png")),de=me(require("./images/shovel.png")),te=me(require("./images/sugarspices.png")),le=me(require("./images/sunglasses.png")),fe=me(require("./images/tables.png")),ie=me(require("./images/textiles.png")),ge=me(require("./images/treesaplings.png")),se=me(require("./images/tv.png")),re=me(require("./images/vegetables.png")),pe=me(require("./images/wood.png"));function me(e){return e&&e.__esModule?e:{default:e}}var ne=[{image:Q.default,deps:[]},{image:pe.default,deps:[]},{image:Z.default,deps:[]},{image:ae.default,deps:[]},{image:S.default,deps:[]},{image:q.default,deps:[]},{image:ie.default,deps:[]},{image:te.default,deps:[]},{image:B.default,deps:[]},{image:e.default,deps:[]},{image:_.default,deps:[]},{image:T.default,deps:[Q.default,Q.default]},{image:Y.default,deps:[pe.default,pe.default]},{image:f.default,deps:[S.default,S.default]},{image:r.default,deps:[S.default,S.default,q.default]},{image:C.default,deps:[Z.default,q.default,q.default]},{image:U.default,deps:[Q.default,Q.default,S.default,q.default,q.default]},{image:F.default,deps:[Q.default,pe.default]},{image:N.default,deps:[Q.default,Z.default]},{image:de.default,deps:[Q.default,pe.default,Z.default]},{image:b.default,deps:[Q.default,Q.default,pe.default,pe.default,Z.default,Z.default]},{image:I.default,deps:[Q.default,Q.default,Y.default,Y.default]},{image:y.default,deps:[Q.default,Q.default,Z.default,Z.default,_.default]},{image:re.default,deps:[ae.default,ae.default]},{image:M.default,deps:[ae.default,ae.default,ie.default,ie.default]},{image:O.default,deps:[ae.default,ae.default,ge.default]},{image:k.default,deps:[e.default]},{image:h.default,deps:[ae.default,ae.default,ae.default,ae.default,S.default]},{image:m.default,deps:[e.default,e.default]},{image:t.default,deps:[e.default,e.default,e.default]},{image:p.default,deps:[pe.default,pe.default,T.default,F.default]},{image:fe.default,deps:[Y.default,T.default,T.default,F.default]},{image:G.default,deps:[ie.default,ie.default,N.default]},{image:w.default,deps:[Y.default,Y.default,B.default,B.default,U.default]},{image:v.default,deps:[ie.default,ie.default,ie.default,y.default,C.default]},{image:D.default,deps:[ae.default,de.default]},{image:ge.default,deps:[ae.default,ae.default,de.default]},{image:P.default,deps:[Y.default,Y.default,Z.default,Z.default,ie.default,ie.default]},{image:z.default,deps:[f.default,f.default,de.default,r.default,r.default]},{image:J.default,deps:[Q.default,Q.default,Q.default,_.default,U.default]},{image:A.default,deps:[r.default,r.default,C.default]},{image:x.default,deps:[M.default,te.default]},{image:E.default,deps:[re.default,O.default]},{image:l.default,deps:[M.default,M.default,k.default]},{image:o.default,deps:[M.default,O.default,m.default]},{image:j.default,deps:[O.default,k.default,te.default]},{image:c.default,deps:[ae.default,ae.default,te.default,k.default]},{image:s.default,deps:[ie.default,ie.default,N.default]},{image:ue.default,deps:[ie.default,ie.default,Z.default,C.default]},{image:le.default,deps:[Z.default,Z.default,B.default,q.default]},{image:g.default,deps:[ie.default,ie.default,N.default,C.default]},{image:a.default,deps:[Z.default,Z.default,ie.default,ie.default,N.default]},{image:H.default,deps:[l.default,k.default]},{image:X.default,deps:[M.default,m.default,t.default]},{image:i.default,deps:[t.default,l.default,d.default]},{image:n.default,deps:[re.default,m.default]},{image:K.default,deps:[te.default,te.default,B.default,B.default,O.default]},{image:$.default,deps:[h.default,h.default,R.default]},{image:d.default,deps:[Q.default,Q.default,Q.default,b.default]},{image:ee.default,deps:[Z.default,Z.default,q.default,q.default,_.default,_.default]},{image:L.default,deps:[q.default,B.default,_.default]},{image:se.default,deps:[Z.default,Z.default,B.default,B.default,_.default,_.default]},{image:R.default,deps:[Q.default,Q.default,Q.default,Q.default,B.default,_.default]},{image:u.default,deps:[]},{image:W.default,deps:[]},{image:V.default,deps:[]}];exports.default=ne;
 },{"./images/animalfeed.png":"yPVv","./images/backpack.png":"aQTE","./images/baguette.png":"xB6U","./images/bbqgrill.png":"BaI8","./images/beef.png":"kNFv","./images/breadroll.png":"Ekvc","./images/bricks.png":"xsZb","./images/burgers.png":"VRtD","./images/businesssuits.png":"zwfR","./images/cap.png":"Iseg","./images/cement.png":"VsSp","./images/chairs.png":"nbkU","./images/cheese.png":"ITCl","./images/cheesefries.png":"EdJh","./images/chemicals.png":"nLzu","./images/cherrycheesecake.png":"z1yi","./images/coffee.png":"nW5N","./images/cookingutensils.png":"Km8e","./images/corn.png":"Ft8M","./images/couch.png":"aztE","./images/cream.png":"tTsy","./images/cupboard.png":"k1NU","./images/donuts.png":"aCj8","./images/drill.png":"wTpS","./images/electricalcomponents.png":"EoTG","./images/firepit.png":"ALpA","./images/flourbags.png":"YDXi","./images/frozenyogurt.png":"EyZZ","./images/fruitberries.png":"hwoL","./images/gardenfurniture.png":"a1dC","./images/gardengnomes.png":"Twau","./images/glass.png":"Ey2G","./images/glue.png":"d8WF","./images/grass.png":"dM2k","./images/greensmoothie.png":"Ojzu","./images/hammer.png":"zRDQ","./images/hometextiles.png":"nL7s","./images/icecreamsandwich.png":"AAWn","./images/ladder.png":"zcEA","./images/lawnmower.png":"qMPS","./images/lemonadebottles.png":"wupo","./images/lightingsystem.png":"LIf8","./images/measuringtape.png":"t6Vg","./images/metal.png":"Y1G5","./images/microwaveoven.png":"hQXo","./images/minerals.png":"JOlY","./images/nails.png":"wG8i","./images/paintbucket.png":"G3UP","./images/parisbag.png":"qWbM","./images/parisshirt.png":"Y64t","./images/pizza.png":"IsLk","./images/planks.png":"waks","./images/plastic.png":"ewlq","./images/popcorn.png":"cBX7","./images/refrigerator.png":"TaAX","./images/seeds.png":"f4de","./images/shoes.png":"SJyQ","./images/shovel.png":"BR0g","./images/sugarspices.png":"hIib","./images/sunglasses.png":"GB2y","./images/tables.png":"fbxl","./images/textiles.png":"FIAV","./images/treesaplings.png":"wyHh","./images/tv.png":"g5MP","./images/vegetables.png":"pOe0","./images/wood.png":"nG7i"}],"SPDy":[function(require,module,exports) {
-module.exports="/logo.3fe8f1cd.png";
+module.exports="/simcity/logo.3fe8f1cd.png";
 },{}],"Focm":[function(require,module,exports) {
 "use strict";var e=require("react-dom"),t=o(require("react")),r=a(require("./data")),n=a(require("./images/logo.png"));function a(e){return e&&e.__esModule?e:{default:e}}function u(){if("function"!=typeof WeakMap)return null;var e=new WeakMap;return u=function(){return e},e}function o(e){if(e&&e.__esModule)return e;if(null===e||"object"!=typeof e&&"function"!=typeof e)return{default:e};var t=u();if(t&&t.has(e))return t.get(e);var r={},n=Object.defineProperty&&Object.getOwnPropertyDescriptor;for(var a in e)if(Object.prototype.hasOwnProperty.call(e,a)){var o=n?Object.getOwnPropertyDescriptor(e,a):null;o&&(o.get||o.set)?Object.defineProperty(r,a,o):r[a]=e[a]}return r.default=e,t&&t.set(e,r),r}function l(e,t){var r=Object.keys(e);if(Object.getOwnPropertySymbols){var n=Object.getOwnPropertySymbols(e);t&&(n=n.filter(function(t){return Object.getOwnPropertyDescriptor(e,t).enumerable})),r.push.apply(r,n)}return r}function i(e){for(var t=1;t<arguments.length;t++){var r=null!=arguments[t]?arguments[t]:{};t%2?l(Object(r),!0).forEach(function(t){c(e,t,r[t])}):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(r)):l(Object(r)).forEach(function(t){Object.defineProperty(e,t,Object.getOwnPropertyDescriptor(r,t))})}return e}function c(e,t,r){return t in e?Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}):e[t]=r,e}function f(e){return d(e)||s(e)||b(e)||m()}function m(){throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}function s(e){if("undefined"!=typeof Symbol&&Symbol.iterator in Object(e))return Array.from(e)}function d(e){if(Array.isArray(e))return g(e)}function p(e,t){return O(e)||v(e,t)||b(e,t)||y()}function y(){throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}function b(e,t){if(e){if("string"==typeof e)return g(e,t);var r=Object.prototype.toString.call(e).slice(8,-1);return"Object"===r&&e.constructor&&(r=e.constructor.name),"Map"===r||"Set"===r?Array.from(r):"Arguments"===r||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r)?g(e,t):void 0}}function g(e,t){(null==t||t>e.length)&&(t=e.length);for(var r=0,n=new Array(t);r<t;r++)n[r]=e[r];return n}function v(e,t){if("undefined"!=typeof Symbol&&Symbol.iterator in Object(e)){var r=[],n=!0,a=!1,u=void 0;try{for(var o,l=e[Symbol.iterator]();!(n=(o=l.next()).done)&&(r.push(o.value),!t||r.length!==t);n=!0);}catch(i){a=!0,u=i}finally{try{n||null==l.return||l.return()}finally{if(a)throw u}}return r}}function O(e){if(Array.isArray(e))return e}var j=function(){var e=p((0,t.useState)([]),2),a=e[0],u=e[1],o=p((0,t.useState)([]),2),l=o[0],m=o[1],s=p((0,t.useState)([]),2),d=s[0],y=s[1];return(0,t.useEffect)(function(){y(Object.values(a.reduce(function(e,t){var r,n=t.image;return i({},e,c({},n,{image:n,amount:(null===(r=e[n])||void 0===r?void 0:r.amount)?e[n].amount+1:1}))},{}))),m(Object.values(a.flatMap(function(e){return e.deps}).reduce(function(e,t){var r;return i({},e,c({},t,{image:t,amount:(null===(r=e[t])||void 0===r?void 0:r.amount)?e[t].amount+1:1}))},{})))},[a,y,m]),t.default.createElement(t.default.Fragment,null,t.default.createElement("img",{className:"logo",src:n.default}),t.default.createElement("div",{className:"container"},t.default.createElement("div",{className:"left"},t.default.createElement("h1",null,"All items"),r.default.map(function(e){return t.default.createElement("button",{onClick:(r=e,function(){u([].concat(f(a),[r]))}),key:e.image},t.default.createElement("img",{className:"item",src:e.image}));var r})),t.default.createElement("div",{className:"right"},t.default.createElement("h1",null,"Required items"),d.length?d.map(function(e){return t.default.createElement("button",{onClick:(r=e,function(){var e=!1;u(a.filter(function(t){return!(!e&&t.image===r.image&&(e=!0,1))}))}),key:e.image},t.default.createElement("img",{className:"item",src:e.image}),t.default.createElement("span",null,"x ",e.amount));var r}):t.default.createElement("p",null,"No required items"),t.default.createElement("h1",null,"Dependencies"),l.length?l.map(function(e){return t.default.createElement("button",{key:e.image,disabled:!0},t.default.createElement("img",{className:"item",src:e.image}),t.default.createElement("span",null,"x ",e.amount))}):t.default.createElement("p",null,"No dependencies"))))};(0,e.render)(t.default.createElement(j,null),document.getElementById("root"));
 },{"react-dom":"NKHc","react":"n8MK","./data":"paDP","./images/logo.png":"SPDy"}]},{},["Focm"], null)
-//# sourceMappingURL=/src.99fcf555.js.map
+//# sourceMappingURL=/simcity/src.99fcf555.js.map
