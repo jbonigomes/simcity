@@ -2,7 +2,7 @@ import { render } from 'react-dom'
 import React, { useState, useEffect } from 'react'
 
 import data from './data'
-import logo from '../images/logo.png'
+import logo from './images/logo.png'
 
 const App = () => {
   const [required, setRequired] = useState([])
@@ -18,7 +18,6 @@ const App = () => {
 
     setRequired(required.filter((item) => {
       if (!found && item.image === itemIn.image) {
-        console.log('debugging')
         found = true
         return false
       }
