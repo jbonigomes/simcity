@@ -1,3 +1,4 @@
+npm run build
 git checkout gh-pages
 git add dist -f
 git commit -m "gh-pages"
