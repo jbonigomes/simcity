@@ -29,6 +29,10 @@ button {
   margin: 0 40px 40px 0;
 }
 
+button:disabled {
+  cursor: default;
+}
+
 h1 {
   font-size: 20px;
   font-weight: 100;

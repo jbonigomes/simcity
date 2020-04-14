@@ -1,13 +1,11 @@
 import { render } from 'react-dom'
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 
 import data from './data'
 import logo from './images/logo.png'
 
 const App = () => {
   const [required, setRequired] = useState([])
-  const [displayDeps, setDisplayDeps] = useState([])
-  const [displayRequired, setDisplayRequired] = useState([])
 
   const handleAdd = (itemIn) => () => {
     setRequired([ ...required, itemIn ])
@@ -26,23 +24,22 @@ const App = () => {
     }))
   }
 
-  useEffect(() => {
-    setDisplayRequired(Object.values(required.reduce((acc, { image }) => ({
-      ...acc,
-      [image]: {
-        image: image,
-        amount: acc[image]?.amount ? acc[image].amount + 1 : 1,
-      },
-    }), {})))
+  const reducer = (arr) => Object.values(arr.reduce((acc, { image }) => ({
+    ...acc,
+    [image]: {
+      image,
+      amount: acc[image]?.amount ? acc[image].amount + 1 : 1,
+    },
+  }), {}))
 
-    setDisplayDeps(Object.values(required.flatMap(({ deps }) => deps).reduce((acc, image) => ({
-      ...acc,
-      [image]: {
-        image,
-        amount: acc[image]?.amount ? acc[image].amount + 1 : 1,
-      },
-    }), {})))
-  }, [required, setDisplayRequired, setDisplayDeps])
+  const getRequired = () => reducer(required)
+
+  const getDependencies = () => {
+    const shallow = required.flatMap(({ deps }) => deps)
+    const deep = shallow.flatMap((dep) => data.find(({ image }) => image === dep).deps)
+
+    return reducer([...shallow, ...deep].flatMap((image) => ({ image })))
+  }
 
   return (
     <>
@@ -60,7 +57,7 @@ const App = () => {
 
         <div className="right">
           <h1>Required items</h1>
-          {displayRequired.length ? displayRequired.map((item) => (
+          {getRequired().length ? getRequired().map((item) => (
             <button onClick={handleRemove(item)} key={item.image}>
               <img className="item" src={item.image} />
               <span>x {item.amount}</span>
@@ -70,7 +67,7 @@ const App = () => {
           )}
 
           <h1>Dependencies</h1>
-          {displayDeps.length ? displayDeps.map((item) => (
+          {getDependencies().length ? getDependencies().map((item) => (
             <button key={item.image} disabled>
               <img className="item" src={item.image} />
               <span>x {item.amount}</span>
