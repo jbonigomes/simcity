@@ -24,7 +24,7 @@ const App = () => {
     }))
   }
 
-  const reducer = (arr) => Object.values(arr.reduce((acc, { image }) => ({
+  const aggregate = (arr) => Object.values(arr.reduce((acc, { image }) => ({
     ...acc,
     [image]: {
       image,
@@ -32,13 +32,11 @@ const App = () => {
     },
   }), {}))
 
-  const getRequired = () => reducer(required)
-
   const getDependencies = () => {
     const shallow = required.flatMap(({ deps }) => deps)
     const deep = shallow.flatMap((dep) => data.find(({ image }) => image === dep).deps)
 
-    return reducer([...shallow, ...deep].flatMap((image) => ({ image })))
+    return aggregate([...shallow, ...deep].flatMap((image) => ({ image })))
   }
 
   return (
@@ -57,7 +55,7 @@ const App = () => {
 
         <div className="right">
           <h1>Required items</h1>
-          {getRequired().length ? getRequired().map((item) => (
+          {required.length ? aggregate(required).map((item) => (
             <button onClick={handleRemove(item)} key={item.image}>
               <img className="item" src={item.image} />
               <span>x {item.amount}</span>
