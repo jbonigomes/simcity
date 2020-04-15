@@ -28305,6 +28305,8 @@ module.exports = "/burgers.1223e0f3.png";
 module.exports = "/businesssuits.d0a31fe6.png";
 },{}],"images/cap.png":[function(require,module,exports) {
 module.exports = "/cap.74f9439e.png";
+},{}],"images/cartires.png":[function(require,module,exports) {
+module.exports = "/cartires.6fe20c05.png";
 },{}],"images/cement.png":[function(require,module,exports) {
 module.exports = "/cement.306a3dc2.png";
 },{}],"images/chairs.png":[function(require,module,exports) {
@@ -28323,10 +28325,14 @@ module.exports = "/coffee.dd669bfb.png";
 module.exports = "/cookingutensils.2fbabb13.png";
 },{}],"images/corn.png":[function(require,module,exports) {
 module.exports = "/corn.0681e5bc.png";
+},{}],"images/cottonbag.png":[function(require,module,exports) {
+module.exports = "/cottonbag.0cd673eb.png";
 },{}],"images/couch.png":[function(require,module,exports) {
 module.exports = "/couch.b4e6bfc4.png";
 },{}],"images/cream.png":[function(require,module,exports) {
 module.exports = "/cream.cc5356ba.png";
+},{}],"images/crudeoil.png":[function(require,module,exports) {
+module.exports = "/crudeoil.ee6728b3.png";
 },{}],"images/cupboard.png":[function(require,module,exports) {
 module.exports = "/cupboard.6b3505fd.png";
 },{}],"images/donuts.png":[function(require,module,exports) {
@@ -28335,6 +28341,10 @@ module.exports = "/donuts.54b3a865.png";
 module.exports = "/drill.341b7e24.png";
 },{}],"images/electricalcomponents.png":[function(require,module,exports) {
 module.exports = "/electricalcomponents.1d41b627.png";
+},{}],"images/engine.png":[function(require,module,exports) {
+module.exports = "/engine.758bdfd0.png";
+},{}],"images/fan.png":[function(require,module,exports) {
+module.exports = "/fan.949de56d.png";
 },{}],"images/firepit.png":[function(require,module,exports) {
 module.exports = "/firepit.9243ed11.png";
 },{}],"images/flourbags.png":[function(require,module,exports) {
@@ -28377,6 +28387,8 @@ module.exports = "/metal.d80a32a8.png";
 module.exports = "/microwaveoven.adc84b4f.png";
 },{}],"images/minerals.png":[function(require,module,exports) {
 module.exports = "/minerals.440abf38.png";
+},{}],"images/motoroil.png":[function(require,module,exports) {
+module.exports = "/motoroil.4e7c55b6.png";
 },{}],"images/nails.png":[function(require,module,exports) {
 module.exports = "/nails.5705a589.png";
 },{}],"images/paintbucket.png":[function(require,module,exports) {
@@ -28393,14 +28405,24 @@ module.exports = "/planks.1bab4121.png";
 module.exports = "/plastic.90b9a6d9.png";
 },{}],"images/popcorn.png":[function(require,module,exports) {
 module.exports = "/popcorn.50e1a58b.png";
+},{}],"images/recycledfabric.png":[function(require,module,exports) {
+module.exports = "/recycledfabric.cabf1264.png";
 },{}],"images/refrigerator.png":[function(require,module,exports) {
 module.exports = "/refrigerator.42c4b8c0.png";
+},{}],"images/robe.png":[function(require,module,exports) {
+module.exports = "/robe.b859a029.png";
+},{}],"images/sandals.png":[function(require,module,exports) {
+module.exports = "/sandals.7feea871.png";
 },{}],"images/seeds.png":[function(require,module,exports) {
 module.exports = "/seeds.1f41ee82.png";
 },{}],"images/shoes.png":[function(require,module,exports) {
 module.exports = "/shoes.8ac4d89c.png";
 },{}],"images/shovel.png":[function(require,module,exports) {
 module.exports = "/shovel.0a1cf607.png";
+},{}],"images/silk.png":[function(require,module,exports) {
+module.exports = "/silk.a7d84904.png";
+},{}],"images/string.png":[function(require,module,exports) {
+module.exports = "/string.e20dc731.png";
 },{}],"images/sugarspices.png":[function(require,module,exports) {
 module.exports = "/sugarspices.5f4094e6.png";
 },{}],"images/sunglasses.png":[function(require,module,exports) {
@@ -28417,6 +28439,8 @@ module.exports = "/tv.a59908dc.png";
 module.exports = "/vegetables.dd9c0646.png";
 },{}],"images/wood.png":[function(require,module,exports) {
 module.exports = "/wood.14a76f6e.png";
+},{}],"images/yogamat.png":[function(require,module,exports) {
+module.exports = "/yogamat.f4407245.png";
 },{}],"data.js":[function(require,module,exports) {
 "use strict";
 
@@ -28445,6 +28469,8 @@ var _businesssuits = _interopRequireDefault(require("./images/businesssuits.png"
 
 var _cap = _interopRequireDefault(require("./images/cap.png"));
 
+var _cartires = _interopRequireDefault(require("./images/cartires.png"));
+
 var _cement = _interopRequireDefault(require("./images/cement.png"));
 
 var _chairs = _interopRequireDefault(require("./images/chairs.png"));
@@ -28463,9 +28489,13 @@ var _cookingutensils = _interopRequireDefault(require("./images/cookingutensils.
 
 var _corn = _interopRequireDefault(require("./images/corn.png"));
 
+var _cottonbag = _interopRequireDefault(require("./images/cottonbag.png"));
+
 var _couch = _interopRequireDefault(require("./images/couch.png"));
 
 var _cream = _interopRequireDefault(require("./images/cream.png"));
+
+var _crudeoil = _interopRequireDefault(require("./images/crudeoil.png"));
 
 var _cupboard = _interopRequireDefault(require("./images/cupboard.png"));
 
@@ -28474,6 +28504,10 @@ var _donuts = _interopRequireDefault(require("./images/donuts.png"));
 var _drill = _interopRequireDefault(require("./images/drill.png"));
 
 var _electricalcomponents = _interopRequireDefault(require("./images/electricalcomponents.png"));
+
+var _engine = _interopRequireDefault(require("./images/engine.png"));
+
+var _fan = _interopRequireDefault(require("./images/fan.png"));
 
 var _firepit = _interopRequireDefault(require("./images/firepit.png"));
 
@@ -28517,6 +28551,8 @@ var _microwaveoven = _interopRequireDefault(require("./images/microwaveoven.png"
 
 var _minerals = _interopRequireDefault(require("./images/minerals.png"));
 
+var _motoroil = _interopRequireDefault(require("./images/motoroil.png"));
+
 var _nails = _interopRequireDefault(require("./images/nails.png"));
 
 var _paintbucket = _interopRequireDefault(require("./images/paintbucket.png"));
@@ -28533,13 +28569,23 @@ var _plastic = _interopRequireDefault(require("./images/plastic.png"));
 
 var _popcorn = _interopRequireDefault(require("./images/popcorn.png"));
 
+var _recycledfabric = _interopRequireDefault(require("./images/recycledfabric.png"));
+
 var _refrigerator = _interopRequireDefault(require("./images/refrigerator.png"));
+
+var _robe = _interopRequireDefault(require("./images/robe.png"));
+
+var _sandals = _interopRequireDefault(require("./images/sandals.png"));
 
 var _seeds = _interopRequireDefault(require("./images/seeds.png"));
 
 var _shoes = _interopRequireDefault(require("./images/shoes.png"));
 
 var _shovel = _interopRequireDefault(require("./images/shovel.png"));
+
+var _silk = _interopRequireDefault(require("./images/silk.png"));
+
+var _string = _interopRequireDefault(require("./images/string.png"));
 
 var _sugarspices = _interopRequireDefault(require("./images/sugarspices.png"));
 
@@ -28556,6 +28602,8 @@ var _tv = _interopRequireDefault(require("./images/tv.png"));
 var _vegetables = _interopRequireDefault(require("./images/vegetables.png"));
 
 var _wood = _interopRequireDefault(require("./images/wood.png"));
+
+var _yogamat = _interopRequireDefault(require("./images/yogamat.png"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -28758,6 +28806,43 @@ var _default = [// RAW MATERIALS
 }, {
   image: _microwaveoven.default,
   deps: [_metal.default, _metal.default, _metal.default, _metal.default, _glass.default, _electricalcomponents.default]
+}, // NEIGHBOURHOODS
+{
+  image: _robe.default,
+  deps: []
+}, {
+  image: _fan.default,
+  deps: []
+}, {
+  image: _string.default,
+  deps: []
+}, {
+  image: _silk.default,
+  deps: []
+}, {
+  image: _crudeoil.default,
+  deps: []
+}, {
+  image: _motoroil.default,
+  deps: []
+}, {
+  image: _cartires.default,
+  deps: []
+}, {
+  image: _engine.default,
+  deps: []
+}, {
+  image: _sandals.default,
+  deps: []
+}, {
+  image: _cottonbag.default,
+  deps: []
+}, {
+  image: _yogamat.default,
+  deps: []
+}, {
+  image: _recycledfabric.default,
+  deps: []
 }, // PARIS
 {
   image: _baguette.default,
@@ -28770,7 +28855,7 @@ var _default = [// RAW MATERIALS
   deps: []
 }];
 exports.default = _default;
-},{"./images/animalfeed.png":"images/animalfeed.png","./images/backpack.png":"images/backpack.png","./images/baguette.png":"images/baguette.png","./images/bbqgrill.png":"images/bbqgrill.png","./images/beef.png":"images/beef.png","./images/breadroll.png":"images/breadroll.png","./images/bricks.png":"images/bricks.png","./images/burgers.png":"images/burgers.png","./images/businesssuits.png":"images/businesssuits.png","./images/cap.png":"images/cap.png","./images/cement.png":"images/cement.png","./images/chairs.png":"images/chairs.png","./images/cheese.png":"images/cheese.png","./images/cheesefries.png":"images/cheesefries.png","./images/chemicals.png":"images/chemicals.png","./images/cherrycheesecake.png":"images/cherrycheesecake.png","./images/coffee.png":"images/coffee.png","./images/cookingutensils.png":"images/cookingutensils.png","./images/corn.png":"images/corn.png","./images/couch.png":"images/couch.png","./images/cream.png":"images/cream.png","./images/cupboard.png":"images/cupboard.png","./images/donuts.png":"images/donuts.png","./images/drill.png":"images/drill.png","./images/electricalcomponents.png":"images/electricalcomponents.png","./images/firepit.png":"images/firepit.png","./images/flourbags.png":"images/flourbags.png","./images/frozenyogurt.png":"images/frozenyogurt.png","./images/fruitberries.png":"images/fruitberries.png","./images/gardenfurniture.png":"images/gardenfurniture.png","./images/gardengnomes.png":"images/gardengnomes.png","./images/glass.png":"images/glass.png","./images/glue.png":"images/glue.png","./images/grass.png":"images/grass.png","./images/greensmoothie.png":"images/greensmoothie.png","./images/hammer.png":"images/hammer.png","./images/hometextiles.png":"images/hometextiles.png","./images/icecreamsandwich.png":"images/icecreamsandwich.png","./images/ladder.png":"images/ladder.png","./images/lawnmower.png":"images/lawnmower.png","./images/lemonadebottles.png":"images/lemonadebottles.png","./images/lightingsystem.png":"images/lightingsystem.png","./images/measuringtape.png":"images/measuringtape.png","./images/metal.png":"images/metal.png","./images/microwaveoven.png":"images/microwaveoven.png","./images/minerals.png":"images/minerals.png","./images/nails.png":"images/nails.png","./images/paintbucket.png":"images/paintbucket.png","./images/parisbag.png":"images/parisbag.png","./images/parisshirt.png":"images/parisshirt.png","./images/pizza.png":"images/pizza.png","./images/planks.png":"images/planks.png","./images/plastic.png":"images/plastic.png","./images/popcorn.png":"images/popcorn.png","./images/refrigerator.png":"images/refrigerator.png","./images/seeds.png":"images/seeds.png","./images/shoes.png":"images/shoes.png","./images/shovel.png":"images/shovel.png","./images/sugarspices.png":"images/sugarspices.png","./images/sunglasses.png":"images/sunglasses.png","./images/tables.png":"images/tables.png","./images/textiles.png":"images/textiles.png","./images/treesaplings.png":"images/treesaplings.png","./images/tv.png":"images/tv.png","./images/vegetables.png":"images/vegetables.png","./images/wood.png":"images/wood.png"}],"images/logo.png":[function(require,module,exports) {
+},{"./images/animalfeed.png":"images/animalfeed.png","./images/backpack.png":"images/backpack.png","./images/baguette.png":"images/baguette.png","./images/bbqgrill.png":"images/bbqgrill.png","./images/beef.png":"images/beef.png","./images/breadroll.png":"images/breadroll.png","./images/bricks.png":"images/bricks.png","./images/burgers.png":"images/burgers.png","./images/businesssuits.png":"images/businesssuits.png","./images/cap.png":"images/cap.png","./images/cartires.png":"images/cartires.png","./images/cement.png":"images/cement.png","./images/chairs.png":"images/chairs.png","./images/cheese.png":"images/cheese.png","./images/cheesefries.png":"images/cheesefries.png","./images/chemicals.png":"images/chemicals.png","./images/cherrycheesecake.png":"images/cherrycheesecake.png","./images/coffee.png":"images/coffee.png","./images/cookingutensils.png":"images/cookingutensils.png","./images/corn.png":"images/corn.png","./images/cottonbag.png":"images/cottonbag.png","./images/couch.png":"images/couch.png","./images/cream.png":"images/cream.png","./images/crudeoil.png":"images/crudeoil.png","./images/cupboard.png":"images/cupboard.png","./images/donuts.png":"images/donuts.png","./images/drill.png":"images/drill.png","./images/electricalcomponents.png":"images/electricalcomponents.png","./images/engine.png":"images/engine.png","./images/fan.png":"images/fan.png","./images/firepit.png":"images/firepit.png","./images/flourbags.png":"images/flourbags.png","./images/frozenyogurt.png":"images/frozenyogurt.png","./images/fruitberries.png":"images/fruitberries.png","./images/gardenfurniture.png":"images/gardenfurniture.png","./images/gardengnomes.png":"images/gardengnomes.png","./images/glass.png":"images/glass.png","./images/glue.png":"images/glue.png","./images/grass.png":"images/grass.png","./images/greensmoothie.png":"images/greensmoothie.png","./images/hammer.png":"images/hammer.png","./images/hometextiles.png":"images/hometextiles.png","./images/icecreamsandwich.png":"images/icecreamsandwich.png","./images/ladder.png":"images/ladder.png","./images/lawnmower.png":"images/lawnmower.png","./images/lemonadebottles.png":"images/lemonadebottles.png","./images/lightingsystem.png":"images/lightingsystem.png","./images/measuringtape.png":"images/measuringtape.png","./images/metal.png":"images/metal.png","./images/microwaveoven.png":"images/microwaveoven.png","./images/minerals.png":"images/minerals.png","./images/motoroil.png":"images/motoroil.png","./images/nails.png":"images/nails.png","./images/paintbucket.png":"images/paintbucket.png","./images/parisbag.png":"images/parisbag.png","./images/parisshirt.png":"images/parisshirt.png","./images/pizza.png":"images/pizza.png","./images/planks.png":"images/planks.png","./images/plastic.png":"images/plastic.png","./images/popcorn.png":"images/popcorn.png","./images/recycledfabric.png":"images/recycledfabric.png","./images/refrigerator.png":"images/refrigerator.png","./images/robe.png":"images/robe.png","./images/sandals.png":"images/sandals.png","./images/seeds.png":"images/seeds.png","./images/shoes.png":"images/shoes.png","./images/shovel.png":"images/shovel.png","./images/silk.png":"images/silk.png","./images/string.png":"images/string.png","./images/sugarspices.png":"images/sugarspices.png","./images/sunglasses.png":"images/sunglasses.png","./images/tables.png":"images/tables.png","./images/textiles.png":"images/textiles.png","./images/treesaplings.png":"images/treesaplings.png","./images/tv.png":"images/tv.png","./images/vegetables.png":"images/vegetables.png","./images/wood.png":"images/wood.png","./images/yogamat.png":"images/yogamat.png"}],"images/logo.png":[function(require,module,exports) {
 module.exports = "/logo.6023b87e.png";
 },{}],"index.js":[function(require,module,exports) {
 "use strict";
@@ -28841,7 +28926,7 @@ var App = function App() {
     };
   };
 
-  var reducer = function reducer(arr) {
+  var aggregate = function aggregate(arr) {
     return Object.values(arr.reduce(function (acc, _ref) {
       var _acc$image;
 
@@ -28851,10 +28936,6 @@ var App = function App() {
         amount: ((_acc$image = acc[image]) === null || _acc$image === void 0 ? void 0 : _acc$image.amount) ? acc[image].amount + 1 : 1
       }));
     }, {}));
-  };
-
-  var getRequired = function getRequired() {
-    return reducer(required);
   };
 
   var getDependencies = function getDependencies() {
@@ -28868,7 +28949,7 @@ var App = function App() {
         return image === dep;
       }).deps;
     });
-    return reducer([].concat(_toConsumableArray(shallow), _toConsumableArray(deep)).flatMap(function (image) {
+    return aggregate([].concat(_toConsumableArray(shallow), _toConsumableArray(deep)).flatMap(function (image) {
       return {
         image: image
       };
@@ -28892,7 +28973,7 @@ var App = function App() {
     }));
   })), /*#__PURE__*/_react.default.createElement("div", {
     className: "right"
-  }, /*#__PURE__*/_react.default.createElement("h1", null, "Required items"), getRequired().length ? getRequired().map(function (item) {
+  }, /*#__PURE__*/_react.default.createElement("h1", null, "Required items"), required.length ? aggregate(required).map(function (item) {
     return /*#__PURE__*/_react.default.createElement("button", {
       onClick: handleRemove(item),
       key: item.image
@@ -28940,7 +29021,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49427" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53887" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
