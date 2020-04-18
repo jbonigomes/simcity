@@ -3,7 +3,7 @@ import backpack from './images/backpack.png'
 import baguette from './images/baguette.png'
 import bbqgrill from './images/bbqgrill.png'
 import beef from './images/beef.png'
-import bonzai from './images/bonzai.png'
+import bonsai from './images/bonsai.png'
 import breadroll from './images/breadroll.png'
 import bricks from './images/bricks.png'
 import burgers from './images/burgers.png'
@@ -725,7 +725,7 @@ export default [
     deps: [],
   },
   {
-    image: bonzai,
+    image: bonsai,
     deps: [],
   },
   {
