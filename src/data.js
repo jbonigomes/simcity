@@ -8,7 +8,7 @@ import bricks from './images/bricks.png'
 import burgers from './images/burgers.png'
 import businesssuits from './images/businesssuits.png'
 import cap from './images/cap.png'
-import cartires from './images/cartires.png'
+// import cartires from './images/cartires.png'
 import cement from './images/cement.png'
 import chairs from './images/chairs.png'
 import cheese from './images/cheese.png'
@@ -21,13 +21,13 @@ import corn from './images/corn.png'
 import cottonbag from './images/cottonbag.png'
 import couch from './images/couch.png'
 import cream from './images/cream.png'
-import crudeoil from './images/crudeoil.png'
+// import crudeoil from './images/crudeoil.png'
 import cupboard from './images/cupboard.png'
 import donuts from './images/donuts.png'
 import drill from './images/drill.png'
 import electricalcomponents from './images/electricalcomponents.png'
-import engine from './images/engine.png'
-import fan from './images/fan.png'
+// import engine from './images/engine.png'
+// import fan from './images/fan.png'
 import firepit from './images/firepit.png'
 import flourbags from './images/flourbags.png'
 import frozenyogurt from './images/frozenyogurt.png'
@@ -39,8 +39,10 @@ import glue from './images/glue.png'
 import grass from './images/grass.png'
 import greensmoothie from './images/greensmoothie.png'
 import hammer from './images/hammer.png'
+import helmet from './images/helmet.png'
 import hometextiles from './images/hometextiles.png'
 import icecreamsandwich from './images/icecreamsandwich.png'
+import kettle from './images/kettle.png'
 import ladder from './images/ladder.png'
 import lawnmower from './images/lawnmower.png'
 import lemonadebottles from './images/lemonadebottles.png'
@@ -49,24 +51,25 @@ import measuringtape from './images/measuringtape.png'
 import metal from './images/metal.png'
 import microwaveoven from './images/microwaveoven.png'
 import minerals from './images/minerals.png'
-import motoroil from './images/motoroil.png'
+// import motoroil from './images/motoroil.png'
 import nails from './images/nails.png'
 import paintbucket from './images/paintbucket.png'
 import parisbag from './images/parisbag.png'
 import parisshirt from './images/parisshirt.png'
+import phonebooth from './images/phonebooth.png'
 import pizza from './images/pizza.png'
 import planks from './images/planks.png'
 import plastic from './images/plastic.png'
 import popcorn from './images/popcorn.png'
 import recycledfabric from './images/recycledfabric.png'
 import refrigerator from './images/refrigerator.png'
-import robe from './images/robe.png'
+// import robe from './images/robe.png'
 import sandals from './images/sandals.png'
 import seeds from './images/seeds.png'
 import shoes from './images/shoes.png'
 import shovel from './images/shovel.png'
-import silk from './images/silk.png'
-import string from './images/string.png'
+// import silk from './images/silk.png'
+// import string from './images/string.png'
 import sugarspices from './images/sugarspices.png'
 import sunglasses from './images/sunglasses.png'
 import tables from './images/tables.png'
@@ -587,38 +590,38 @@ export default [
   },
 
   // NEIGHBOURHOODS
-  {
-    image: robe,
-    deps: [],
-  },
-  {
-    image: fan,
-    deps: [],
-  },
-  {
-    image: string,
-    deps: [],
-  },
-  {
-    image: silk,
-    deps: [],
-  },
-  {
-    image: crudeoil,
-    deps: [],
-  },
-  {
-    image: motoroil,
-    deps: [],
-  },
-  {
-    image: cartires,
-    deps: [],
-  },
-  {
-    image: engine,
-    deps: [],
-  },
+  // {
+  //   image: robe,
+  //   deps: [],
+  // },
+  // {
+  //   image: fan,
+  //   deps: [],
+  // },
+  // {
+  //   image: string,
+  //   deps: [],
+  // },
+  // {
+  //   image: silk,
+  //   deps: [],
+  // },
+  // {
+  //   image: crudeoil,
+  //   deps: [],
+  // },
+  // {
+  //   image: motoroil,
+  //   deps: [],
+  // },
+  // {
+  //   image: cartires,
+  //   deps: [],
+  // },
+  // {
+  //   image: engine,
+  //   deps: [],
+  // },
   {
     image: sandals,
     deps: [],
@@ -647,6 +650,20 @@ export default [
   },
   {
     image: parisbag,
+    deps: [],
+  },
+
+  // LONDON
+  {
+    image: kettle,
+    deps: [],
+  },
+  {
+    image: phonebooth,
+    deps: [],
+  },
+  {
+    image: helmet,
     deps: [],
   },
 ]
