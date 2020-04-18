@@ -3,11 +3,13 @@ import backpack from './images/backpack.png'
 import baguette from './images/baguette.png'
 import bbqgrill from './images/bbqgrill.png'
 import beef from './images/beef.png'
+import bonzai from './images/bonzai.png'
 import breadroll from './images/breadroll.png'
 import bricks from './images/bricks.png'
 import burgers from './images/burgers.png'
 import businesssuits from './images/businesssuits.png'
 import cap from './images/cap.png'
+import cat from './images/cat.png'
 // import cartires from './images/cartires.png'
 import cement from './images/cement.png'
 import chairs from './images/chairs.png'
@@ -44,6 +46,7 @@ import hometextiles from './images/hometextiles.png'
 import icecreamsandwich from './images/icecreamsandwich.png'
 import kettle from './images/kettle.png'
 import ladder from './images/ladder.png'
+import lamp from './images/lamp.png'
 import lawnmower from './images/lawnmower.png'
 import lemonadebottles from './images/lemonadebottles.png'
 import lightingsystem from './images/lightingsystem.png'
@@ -679,6 +682,20 @@ export default [
   },
   {
     image: helmet,
+    deps: [],
+  },
+
+  // TOKYO
+  {
+    image: cat,
+    deps: [],
+  },
+  {
+    image: bonzai,
+    deps: [],
+  },
+  {
+    image: lamp,
     deps: [],
   },
 ]
