@@ -623,20 +623,35 @@ export default [
   //   deps: [],
   // },
   {
-    image: sandals,
+    image: recycledfabric,
     deps: [],
   },
   {
     image: cottonbag,
-    deps: [],
+    deps: [
+      recycledfabric,
+      recycledfabric,
+    ],
+  },
+  {
+    image: sandals,
+    deps: [
+      recycledfabric,
+      recycledfabric,
+      glue,
+      measuringtape,
+    ],
   },
   {
     image: yogamat,
-    deps: [],
-  },
-  {
-    image: recycledfabric,
-    deps: [],
+    deps: [
+      recycledfabric,
+      recycledfabric,
+      recycledfabric,
+      hometextiles,
+      hometextiles,
+      paintbucket,
+    ],
   },
 
   // PARIS
