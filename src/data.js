@@ -8,6 +8,7 @@ import breadroll from './images/breadroll.png'
 import bricks from './images/bricks.png'
 import burgers from './images/burgers.png'
 import businesssuits from './images/businesssuits.png'
+import canfish from './images/canfish.png'
 import cap from './images/cap.png'
 import cat from './images/cat.png'
 // import cartires from './images/cartires.png'
@@ -31,6 +32,7 @@ import electricalcomponents from './images/electricalcomponents.png'
 // import engine from './images/engine.png'
 // import fan from './images/fan.png'
 import firepit from './images/firepit.png'
+import fish from './images/fish.png'
 import flourbags from './images/flourbags.png'
 import frozenyogurt from './images/frozenyogurt.png'
 import fruitberries from './images/fruitberries.png'
@@ -67,10 +69,12 @@ import popcorn from './images/popcorn.png'
 import recycledfabric from './images/recycledfabric.png'
 import refrigerator from './images/refrigerator.png'
 // import robe from './images/robe.png'
+import salmon from './images/salmon.png'
 import sandals from './images/sandals.png'
 import seeds from './images/seeds.png'
 import shoes from './images/shoes.png'
 import shovel from './images/shovel.png'
+import soup from './images/soup.png'
 // import silk from './images/silk.png'
 // import string from './images/string.png'
 import sugarspices from './images/sugarspices.png'
@@ -654,6 +658,36 @@ export default [
       hometextiles,
       hometextiles,
       paintbucket,
+    ],
+  },
+
+  {
+    image: fish,
+    deps: [],
+  },
+  {
+    image: canfish,
+    deps: [
+      fish,
+      metal,
+    ],
+  },
+  {
+    image: soup,
+    deps: [
+      vegetables,
+      fish,
+      fish,
+      cookingutensils,
+      cookingutensils,
+    ],
+  },
+  {
+    image: salmon,
+    deps: [
+      breadroll,
+      fish,
+      fish,
     ],
   },
 
