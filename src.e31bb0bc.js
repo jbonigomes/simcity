@@ -28305,8 +28305,6 @@ module.exports = "/burgers.1223e0f3.png";
 module.exports = "/businesssuits.d0a31fe6.png";
 },{}],"images/cap.png":[function(require,module,exports) {
 module.exports = "/cap.74f9439e.png";
-},{}],"images/cartires.png":[function(require,module,exports) {
-module.exports = "/cartires.6fe20c05.png";
 },{}],"images/cement.png":[function(require,module,exports) {
 module.exports = "/cement.306a3dc2.png";
 },{}],"images/chairs.png":[function(require,module,exports) {
@@ -28331,8 +28329,6 @@ module.exports = "/cottonbag.0cd673eb.png";
 module.exports = "/couch.b4e6bfc4.png";
 },{}],"images/cream.png":[function(require,module,exports) {
 module.exports = "/cream.cc5356ba.png";
-},{}],"images/crudeoil.png":[function(require,module,exports) {
-module.exports = "/crudeoil.ee6728b3.png";
 },{}],"images/cupboard.png":[function(require,module,exports) {
 module.exports = "/cupboard.6b3505fd.png";
 },{}],"images/donuts.png":[function(require,module,exports) {
@@ -28341,10 +28337,6 @@ module.exports = "/donuts.54b3a865.png";
 module.exports = "/drill.341b7e24.png";
 },{}],"images/electricalcomponents.png":[function(require,module,exports) {
 module.exports = "/electricalcomponents.1d41b627.png";
-},{}],"images/engine.png":[function(require,module,exports) {
-module.exports = "/engine.758bdfd0.png";
-},{}],"images/fan.png":[function(require,module,exports) {
-module.exports = "/fan.949de56d.png";
 },{}],"images/firepit.png":[function(require,module,exports) {
 module.exports = "/firepit.9243ed11.png";
 },{}],"images/flourbags.png":[function(require,module,exports) {
@@ -28367,10 +28359,14 @@ module.exports = "/grass.d51d569d.png";
 module.exports = "/greensmoothie.302e2164.png";
 },{}],"images/hammer.png":[function(require,module,exports) {
 module.exports = "/hammer.98f3b090.png";
+},{}],"images/helmet.png":[function(require,module,exports) {
+module.exports = "/helmet.5ea049d7.png";
 },{}],"images/hometextiles.png":[function(require,module,exports) {
 module.exports = "/hometextiles.650a99ac.png";
 },{}],"images/icecreamsandwich.png":[function(require,module,exports) {
 module.exports = "/icecreamsandwich.a6323b8a.png";
+},{}],"images/kettle.png":[function(require,module,exports) {
+module.exports = "/kettle.7e0e8431.png";
 },{}],"images/ladder.png":[function(require,module,exports) {
 module.exports = "/ladder.6f91136d.png";
 },{}],"images/lawnmower.png":[function(require,module,exports) {
@@ -28387,8 +28383,6 @@ module.exports = "/metal.d80a32a8.png";
 module.exports = "/microwaveoven.adc84b4f.png";
 },{}],"images/minerals.png":[function(require,module,exports) {
 module.exports = "/minerals.440abf38.png";
-},{}],"images/motoroil.png":[function(require,module,exports) {
-module.exports = "/motoroil.4e7c55b6.png";
 },{}],"images/nails.png":[function(require,module,exports) {
 module.exports = "/nails.5705a589.png";
 },{}],"images/paintbucket.png":[function(require,module,exports) {
@@ -28397,6 +28391,8 @@ module.exports = "/paintbucket.92f378ad.png";
 module.exports = "/parisbag.a8b4d1fc.png";
 },{}],"images/parisshirt.png":[function(require,module,exports) {
 module.exports = "/parisshirt.e0afd803.png";
+},{}],"images/phonebooth.png":[function(require,module,exports) {
+module.exports = "/phonebooth.65c3ce45.png";
 },{}],"images/pizza.png":[function(require,module,exports) {
 module.exports = "/pizza.4a414bfc.png";
 },{}],"images/planks.png":[function(require,module,exports) {
@@ -28409,8 +28405,6 @@ module.exports = "/popcorn.50e1a58b.png";
 module.exports = "/recycledfabric.cabf1264.png";
 },{}],"images/refrigerator.png":[function(require,module,exports) {
 module.exports = "/refrigerator.42c4b8c0.png";
-},{}],"images/robe.png":[function(require,module,exports) {
-module.exports = "/robe.b859a029.png";
 },{}],"images/sandals.png":[function(require,module,exports) {
 module.exports = "/sandals.7feea871.png";
 },{}],"images/seeds.png":[function(require,module,exports) {
@@ -28419,10 +28413,6 @@ module.exports = "/seeds.1f41ee82.png";
 module.exports = "/shoes.8ac4d89c.png";
 },{}],"images/shovel.png":[function(require,module,exports) {
 module.exports = "/shovel.0a1cf607.png";
-},{}],"images/silk.png":[function(require,module,exports) {
-module.exports = "/silk.a7d84904.png";
-},{}],"images/string.png":[function(require,module,exports) {
-module.exports = "/string.e20dc731.png";
 },{}],"images/sugarspices.png":[function(require,module,exports) {
 module.exports = "/sugarspices.5f4094e6.png";
 },{}],"images/sunglasses.png":[function(require,module,exports) {
@@ -28469,8 +28459,6 @@ var _businesssuits = _interopRequireDefault(require("./images/businesssuits.png"
 
 var _cap = _interopRequireDefault(require("./images/cap.png"));
 
-var _cartires = _interopRequireDefault(require("./images/cartires.png"));
-
 var _cement = _interopRequireDefault(require("./images/cement.png"));
 
 var _chairs = _interopRequireDefault(require("./images/chairs.png"));
@@ -28495,8 +28483,6 @@ var _couch = _interopRequireDefault(require("./images/couch.png"));
 
 var _cream = _interopRequireDefault(require("./images/cream.png"));
 
-var _crudeoil = _interopRequireDefault(require("./images/crudeoil.png"));
-
 var _cupboard = _interopRequireDefault(require("./images/cupboard.png"));
 
 var _donuts = _interopRequireDefault(require("./images/donuts.png"));
@@ -28504,10 +28490,6 @@ var _donuts = _interopRequireDefault(require("./images/donuts.png"));
 var _drill = _interopRequireDefault(require("./images/drill.png"));
 
 var _electricalcomponents = _interopRequireDefault(require("./images/electricalcomponents.png"));
-
-var _engine = _interopRequireDefault(require("./images/engine.png"));
-
-var _fan = _interopRequireDefault(require("./images/fan.png"));
 
 var _firepit = _interopRequireDefault(require("./images/firepit.png"));
 
@@ -28531,9 +28513,13 @@ var _greensmoothie = _interopRequireDefault(require("./images/greensmoothie.png"
 
 var _hammer = _interopRequireDefault(require("./images/hammer.png"));
 
+var _helmet = _interopRequireDefault(require("./images/helmet.png"));
+
 var _hometextiles = _interopRequireDefault(require("./images/hometextiles.png"));
 
 var _icecreamsandwich = _interopRequireDefault(require("./images/icecreamsandwich.png"));
+
+var _kettle = _interopRequireDefault(require("./images/kettle.png"));
 
 var _ladder = _interopRequireDefault(require("./images/ladder.png"));
 
@@ -28551,8 +28537,6 @@ var _microwaveoven = _interopRequireDefault(require("./images/microwaveoven.png"
 
 var _minerals = _interopRequireDefault(require("./images/minerals.png"));
 
-var _motoroil = _interopRequireDefault(require("./images/motoroil.png"));
-
 var _nails = _interopRequireDefault(require("./images/nails.png"));
 
 var _paintbucket = _interopRequireDefault(require("./images/paintbucket.png"));
@@ -28560,6 +28544,8 @@ var _paintbucket = _interopRequireDefault(require("./images/paintbucket.png"));
 var _parisbag = _interopRequireDefault(require("./images/parisbag.png"));
 
 var _parisshirt = _interopRequireDefault(require("./images/parisshirt.png"));
+
+var _phonebooth = _interopRequireDefault(require("./images/phonebooth.png"));
 
 var _pizza = _interopRequireDefault(require("./images/pizza.png"));
 
@@ -28573,8 +28559,6 @@ var _recycledfabric = _interopRequireDefault(require("./images/recycledfabric.pn
 
 var _refrigerator = _interopRequireDefault(require("./images/refrigerator.png"));
 
-var _robe = _interopRequireDefault(require("./images/robe.png"));
-
 var _sandals = _interopRequireDefault(require("./images/sandals.png"));
 
 var _seeds = _interopRequireDefault(require("./images/seeds.png"));
@@ -28582,10 +28566,6 @@ var _seeds = _interopRequireDefault(require("./images/seeds.png"));
 var _shoes = _interopRequireDefault(require("./images/shoes.png"));
 
 var _shovel = _interopRequireDefault(require("./images/shovel.png"));
-
-var _silk = _interopRequireDefault(require("./images/silk.png"));
-
-var _string = _interopRequireDefault(require("./images/string.png"));
 
 var _sugarspices = _interopRequireDefault(require("./images/sugarspices.png"));
 
@@ -28607,6 +28587,14 @@ var _yogamat = _interopRequireDefault(require("./images/yogamat.png"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// import cartires from './images/cartires.png'
+// import crudeoil from './images/crudeoil.png'
+// import engine from './images/engine.png'
+// import fan from './images/fan.png'
+// import motoroil from './images/motoroil.png'
+// import robe from './images/robe.png'
+// import silk from './images/silk.png'
+// import string from './images/string.png'
 var _default = [// RAW MATERIALS
 {
   image: _metal.default,
@@ -28807,31 +28795,39 @@ var _default = [// RAW MATERIALS
   image: _microwaveoven.default,
   deps: [_metal.default, _metal.default, _metal.default, _metal.default, _glass.default, _electricalcomponents.default]
 }, // NEIGHBOURHOODS
+// {
+//   image: robe,
+//   deps: [],
+// },
+// {
+//   image: fan,
+//   deps: [],
+// },
+// {
+//   image: string,
+//   deps: [],
+// },
+// {
+//   image: silk,
+//   deps: [],
+// },
+// {
+//   image: crudeoil,
+//   deps: [],
+// },
+// {
+//   image: motoroil,
+//   deps: [],
+// },
+// {
+//   image: cartires,
+//   deps: [],
+// },
+// {
+//   image: engine,
+//   deps: [],
+// },
 {
-  image: _robe.default,
-  deps: []
-}, {
-  image: _fan.default,
-  deps: []
-}, {
-  image: _string.default,
-  deps: []
-}, {
-  image: _silk.default,
-  deps: []
-}, {
-  image: _crudeoil.default,
-  deps: []
-}, {
-  image: _motoroil.default,
-  deps: []
-}, {
-  image: _cartires.default,
-  deps: []
-}, {
-  image: _engine.default,
-  deps: []
-}, {
   image: _sandals.default,
   deps: []
 }, {
@@ -28853,9 +28849,19 @@ var _default = [// RAW MATERIALS
 }, {
   image: _parisbag.default,
   deps: []
+}, // LONDON
+{
+  image: _kettle.default,
+  deps: []
+}, {
+  image: _phonebooth.default,
+  deps: []
+}, {
+  image: _helmet.default,
+  deps: []
 }];
 exports.default = _default;
-},{"./images/animalfeed.png":"images/animalfeed.png","./images/backpack.png":"images/backpack.png","./images/baguette.png":"images/baguette.png","./images/bbqgrill.png":"images/bbqgrill.png","./images/beef.png":"images/beef.png","./images/breadroll.png":"images/breadroll.png","./images/bricks.png":"images/bricks.png","./images/burgers.png":"images/burgers.png","./images/businesssuits.png":"images/businesssuits.png","./images/cap.png":"images/cap.png","./images/cartires.png":"images/cartires.png","./images/cement.png":"images/cement.png","./images/chairs.png":"images/chairs.png","./images/cheese.png":"images/cheese.png","./images/cheesefries.png":"images/cheesefries.png","./images/chemicals.png":"images/chemicals.png","./images/cherrycheesecake.png":"images/cherrycheesecake.png","./images/coffee.png":"images/coffee.png","./images/cookingutensils.png":"images/cookingutensils.png","./images/corn.png":"images/corn.png","./images/cottonbag.png":"images/cottonbag.png","./images/couch.png":"images/couch.png","./images/cream.png":"images/cream.png","./images/crudeoil.png":"images/crudeoil.png","./images/cupboard.png":"images/cupboard.png","./images/donuts.png":"images/donuts.png","./images/drill.png":"images/drill.png","./images/electricalcomponents.png":"images/electricalcomponents.png","./images/engine.png":"images/engine.png","./images/fan.png":"images/fan.png","./images/firepit.png":"images/firepit.png","./images/flourbags.png":"images/flourbags.png","./images/frozenyogurt.png":"images/frozenyogurt.png","./images/fruitberries.png":"images/fruitberries.png","./images/gardenfurniture.png":"images/gardenfurniture.png","./images/gardengnomes.png":"images/gardengnomes.png","./images/glass.png":"images/glass.png","./images/glue.png":"images/glue.png","./images/grass.png":"images/grass.png","./images/greensmoothie.png":"images/greensmoothie.png","./images/hammer.png":"images/hammer.png","./images/hometextiles.png":"images/hometextiles.png","./images/icecreamsandwich.png":"images/icecreamsandwich.png","./images/ladder.png":"images/ladder.png","./images/lawnmower.png":"images/lawnmower.png","./images/lemonadebottles.png":"images/lemonadebottles.png","./images/lightingsystem.png":"images/lightingsystem.png","./images/measuringtape.png":"images/measuringtape.png","./images/metal.png":"images/metal.png","./images/microwaveoven.png":"images/microwaveoven.png","./images/minerals.png":"images/minerals.png","./images/motoroil.png":"images/motoroil.png","./images/nails.png":"images/nails.png","./images/paintbucket.png":"images/paintbucket.png","./images/parisbag.png":"images/parisbag.png","./images/parisshirt.png":"images/parisshirt.png","./images/pizza.png":"images/pizza.png","./images/planks.png":"images/planks.png","./images/plastic.png":"images/plastic.png","./images/popcorn.png":"images/popcorn.png","./images/recycledfabric.png":"images/recycledfabric.png","./images/refrigerator.png":"images/refrigerator.png","./images/robe.png":"images/robe.png","./images/sandals.png":"images/sandals.png","./images/seeds.png":"images/seeds.png","./images/shoes.png":"images/shoes.png","./images/shovel.png":"images/shovel.png","./images/silk.png":"images/silk.png","./images/string.png":"images/string.png","./images/sugarspices.png":"images/sugarspices.png","./images/sunglasses.png":"images/sunglasses.png","./images/tables.png":"images/tables.png","./images/textiles.png":"images/textiles.png","./images/treesaplings.png":"images/treesaplings.png","./images/tv.png":"images/tv.png","./images/vegetables.png":"images/vegetables.png","./images/wood.png":"images/wood.png","./images/yogamat.png":"images/yogamat.png"}],"images/logo.png":[function(require,module,exports) {
+},{"./images/animalfeed.png":"images/animalfeed.png","./images/backpack.png":"images/backpack.png","./images/baguette.png":"images/baguette.png","./images/bbqgrill.png":"images/bbqgrill.png","./images/beef.png":"images/beef.png","./images/breadroll.png":"images/breadroll.png","./images/bricks.png":"images/bricks.png","./images/burgers.png":"images/burgers.png","./images/businesssuits.png":"images/businesssuits.png","./images/cap.png":"images/cap.png","./images/cement.png":"images/cement.png","./images/chairs.png":"images/chairs.png","./images/cheese.png":"images/cheese.png","./images/cheesefries.png":"images/cheesefries.png","./images/chemicals.png":"images/chemicals.png","./images/cherrycheesecake.png":"images/cherrycheesecake.png","./images/coffee.png":"images/coffee.png","./images/cookingutensils.png":"images/cookingutensils.png","./images/corn.png":"images/corn.png","./images/cottonbag.png":"images/cottonbag.png","./images/couch.png":"images/couch.png","./images/cream.png":"images/cream.png","./images/cupboard.png":"images/cupboard.png","./images/donuts.png":"images/donuts.png","./images/drill.png":"images/drill.png","./images/electricalcomponents.png":"images/electricalcomponents.png","./images/firepit.png":"images/firepit.png","./images/flourbags.png":"images/flourbags.png","./images/frozenyogurt.png":"images/frozenyogurt.png","./images/fruitberries.png":"images/fruitberries.png","./images/gardenfurniture.png":"images/gardenfurniture.png","./images/gardengnomes.png":"images/gardengnomes.png","./images/glass.png":"images/glass.png","./images/glue.png":"images/glue.png","./images/grass.png":"images/grass.png","./images/greensmoothie.png":"images/greensmoothie.png","./images/hammer.png":"images/hammer.png","./images/helmet.png":"images/helmet.png","./images/hometextiles.png":"images/hometextiles.png","./images/icecreamsandwich.png":"images/icecreamsandwich.png","./images/kettle.png":"images/kettle.png","./images/ladder.png":"images/ladder.png","./images/lawnmower.png":"images/lawnmower.png","./images/lemonadebottles.png":"images/lemonadebottles.png","./images/lightingsystem.png":"images/lightingsystem.png","./images/measuringtape.png":"images/measuringtape.png","./images/metal.png":"images/metal.png","./images/microwaveoven.png":"images/microwaveoven.png","./images/minerals.png":"images/minerals.png","./images/nails.png":"images/nails.png","./images/paintbucket.png":"images/paintbucket.png","./images/parisbag.png":"images/parisbag.png","./images/parisshirt.png":"images/parisshirt.png","./images/phonebooth.png":"images/phonebooth.png","./images/pizza.png":"images/pizza.png","./images/planks.png":"images/planks.png","./images/plastic.png":"images/plastic.png","./images/popcorn.png":"images/popcorn.png","./images/recycledfabric.png":"images/recycledfabric.png","./images/refrigerator.png":"images/refrigerator.png","./images/sandals.png":"images/sandals.png","./images/seeds.png":"images/seeds.png","./images/shoes.png":"images/shoes.png","./images/shovel.png":"images/shovel.png","./images/sugarspices.png":"images/sugarspices.png","./images/sunglasses.png":"images/sunglasses.png","./images/tables.png":"images/tables.png","./images/textiles.png":"images/textiles.png","./images/treesaplings.png":"images/treesaplings.png","./images/tv.png":"images/tv.png","./images/vegetables.png":"images/vegetables.png","./images/wood.png":"images/wood.png","./images/yogamat.png":"images/yogamat.png"}],"images/logo.png":[function(require,module,exports) {
 module.exports = "/logo.6023b87e.png";
 },{}],"index.js":[function(require,module,exports) {
 "use strict";
@@ -29021,7 +29027,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53887" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56171" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
