@@ -8,31 +8,33 @@ import breadroll from './images/breadroll.png'
 import bricks from './images/bricks.png'
 import burgers from './images/burgers.png'
 import businesssuits from './images/businesssuits.png'
-import canfish from './images/canfish.jpg'
+import canfish from './images/canfish.png'
 import cap from './images/cap.png'
 import cat from './images/cat.png'
-// import cartires from './images/cartires.png'
+import cartires from './images/cartires.png'
 import cement from './images/cement.png'
 import chairs from './images/chairs.png'
 import cheese from './images/cheese.png'
 import cheesefries from './images/cheesefries.png'
 import chemicals from './images/chemicals.png'
 import cherrycheesecake from './images/cherrycheesecake.png'
+import coconut from './images/coconut.png'
 import coffee from './images/coffee.png'
 import cookingutensils from './images/cookingutensils.png'
 import corn from './images/corn.png'
 import cottonbag from './images/cottonbag.png'
 import couch from './images/couch.png'
 import cream from './images/cream.png'
-// import crudeoil from './images/crudeoil.png'
+import crudeoil from './images/crudeoil.png'
 import cupboard from './images/cupboard.png'
 import donuts from './images/donuts.png'
 import drill from './images/drill.png'
 import electricalcomponents from './images/electricalcomponents.png'
-// import engine from './images/engine.png'
+import engine from './images/engine.png'
 // import fan from './images/fan.png'
+import facecream from './images/facecream.png'
 import firepit from './images/firepit.png'
-import fish from './images/fish.jpg'
+import fish from './images/fish.png'
 import flourbags from './images/flourbags.png'
 import frozenyogurt from './images/frozenyogurt.png'
 import fruitberries from './images/fruitberries.png'
@@ -56,8 +58,9 @@ import measuringtape from './images/measuringtape.png'
 import metal from './images/metal.png'
 import microwaveoven from './images/microwaveoven.png'
 import minerals from './images/minerals.png'
-// import motoroil from './images/motoroil.png'
+import motoroil from './images/motoroil.png'
 import nails from './images/nails.png'
+import oil from './images/oil.png'
 import paintbucket from './images/paintbucket.png'
 import parisbag from './images/parisbag.png'
 import parisshirt from './images/parisshirt.png'
@@ -69,12 +72,12 @@ import popcorn from './images/popcorn.png'
 import recycledfabric from './images/recycledfabric.png'
 import refrigerator from './images/refrigerator.png'
 // import robe from './images/robe.png'
-import salmon from './images/salmon.jpg'
+import salmon from './images/salmon.png'
 import sandals from './images/sandals.png'
 import seeds from './images/seeds.png'
 import shoes from './images/shoes.png'
 import shovel from './images/shovel.png'
-import soup from './images/soup.jpg'
+import soup from './images/soup.png'
 // import silk from './images/silk.png'
 // import string from './images/string.png'
 import sugarspices from './images/sugarspices.png'
@@ -596,13 +599,9 @@ export default [
     ],
   },
 
-  // NEIGHBOURHOODS
+  // LIMESTONE CLIFFS
   // {
-  //   image: robe,
-  //   deps: [],
-  // },
-  // {
-  //   image: fan,
+  //   image: silk,
   //   deps: [],
   // },
   // {
@@ -610,25 +609,33 @@ export default [
   //   deps: [],
   // },
   // {
-  //   image: silk,
+  //   image: fan,
   //   deps: [],
   // },
   // {
-  //   image: crudeoil,
+  //   image: robe,
   //   deps: [],
   // },
-  // {
-  //   image: motoroil,
-  //   deps: [],
-  // },
-  // {
-  //   image: cartires,
-  //   deps: [],
-  // },
-  // {
-  //   image: engine,
-  //   deps: [],
-  // },
+
+  // CACTUS CANYON
+  {
+    image: crudeoil,
+    deps: [],
+  },
+  {
+    image: motoroil,
+    deps: [],
+  },
+  {
+    image: cartires,
+    deps: [],
+  },
+  {
+    image: engine,
+    deps: [],
+  },
+
+  // GREEN VALLEY
   {
     image: recycledfabric,
     deps: [],
@@ -661,6 +668,7 @@ export default [
     ],
   },
 
+  // FROSTY FJORDS
   {
     image: fish,
     deps: [],
@@ -688,6 +696,28 @@ export default [
       breadroll,
       fish,
       fish,
+    ],
+  },
+
+  // SUNNY ISLES
+  {
+    image: coconut,
+    deps: [],
+  },
+  {
+    image: oil,
+    deps: [
+      coconut,
+      coconut,
+    ],
+  },
+  {
+    image: facecream,
+    deps: [
+      oil,
+      oil,
+      chemicals,
+      chemicals,
     ],
   },
 
