@@ -45,7 +45,6 @@ const App = () => {
 
       <div className="container">
         <div className="left">
-          <h1>All items</h1>
           {data.map((item) => (
             <button onClick={handleAdd(item)} key={item.image}>
               <img className="item" src={item.image} />
