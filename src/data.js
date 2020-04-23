@@ -624,15 +624,31 @@ export default [
   },
   {
     image: motoroil,
-    deps: [],
+    deps: [
+      crudeoil,
+      crudeoil,
+    ],
   },
   {
     image: cartires,
-    deps: [],
+    deps: [
+      crudeoil,
+      crudeoil,
+      glue,
+      nail,
+      nail,
+      nail,
+    ],
   },
   {
     image: engine,
-    deps: [],
+    deps: [
+      nail,
+      nail,
+      nail,
+      drill,
+      electricalcomponents,
+    ],
   },
 
   // GREEN VALLEY
